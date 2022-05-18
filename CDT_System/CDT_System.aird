@@ -12,7 +12,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="CDT_System.capella#60d7b275-f125-4171-a64a-2024824c37d8"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_7NP-INa6EeyVd-CR1SC4AA" name="[OAB] Aquire and Maintain" repPath="#_7NOwANa6EeyVd-CR1SC4AA" changeId="f81aa111-2ca2-4610-85d7-c1352b7cf77a">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_7NP-INa6EeyVd-CR1SC4AA" name="[OAB] Acquire and Maintain" repPath="#_7NOwANa6EeyVd-CR1SC4AA" changeId="f81aa111-2ca2-4610-85d7-c1352b7cf77a">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="CDT_System.capella#a601bc89-b500-494a-a9a5-6cb78ab285a1"/>
       </ownedRepresentationDescriptors>
