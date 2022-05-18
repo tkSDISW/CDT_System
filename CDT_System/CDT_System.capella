@@ -249,7 +249,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="d46ac87a-b688-4c48-8af1-13b730374185" name="Provide ID Information"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="6d39206e-30f2-4564-9fa3-9418aede8db5" name="Athlete Executes Plays"/>
+              id="6d39206e-30f2-4564-9fa3-9418aede8db5" name="Athlete Particpates in Activity"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="b2d9885a-0f6f-4a92-a901-3081c5f630ef" name="Device"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"

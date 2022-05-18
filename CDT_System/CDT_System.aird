@@ -28,7 +28,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Process%20Description']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalProcess" href="CDT_System.capella#fed316e0-bed3-4d8a-913b-05bcb86d36a7"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_AdTTwNbBEeyVd-CR1SC4AA" name="[OAB] Detect and Download" repPath="#_AdSFoNbBEeyVd-CR1SC4AA" changeId="44ddc87a-01b4-44a7-9a6c-da6960d9f95a">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_AdTTwNbBEeyVd-CR1SC4AA" name="[OAB] Detect and Download" repPath="#_AdSFoNbBEeyVd-CR1SC4AA" changeId="a2322791-0f08-4664-91f2-402961bfadef">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="CDT_System.capella#a601bc89-b500-494a-a9a5-6cb78ab285a1"/>
       </ownedRepresentationDescriptors>
@@ -3560,7 +3560,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_1Yhs0NbCEeyVd-CR1SC4AA" name="Athlete Executes Plays" width="7" height="7" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_1Yhs0NbCEeyVd-CR1SC4AA" name="Athlete Particpates in Activity" width="7" height="7" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="CDT_System.capella#6d39206e-30f2-4564-9fa3-9418aede8db5"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="CDT_System.capella#6d39206e-30f2-4564-9fa3-9418aede8db5"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
