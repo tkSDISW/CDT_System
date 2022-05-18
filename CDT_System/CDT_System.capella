@@ -89,6 +89,17 @@
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="0f2d23ce-c574-49ce-8819-fa2f3db36458" involved="#2dd12504-d68a-46ce-976a-f0850bf02299"/>
         </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="740b6a54-c71f-4b00-a9d2-779c53445f26" name="Detect Concussion">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="2c17cc67-d85b-4417-94f3-629456a8536a" involved="#c2d20c3f-ce79-4640-be4a-8173715232b5"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="a6a276b1-1502-4429-aac3-419e65db5cf9" involved="#1c68d929-b187-44dd-9d46-692a26d61f5b"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="7028ae71-42ad-4942-bd6f-3c99817c595b" involved="#4b6faa5d-4abf-4992-b353-9ce31f94c203"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="57f75808-1c0c-49aa-89db-749e03621f81" involved="#2dd12504-d68a-46ce-976a-f0850bf02299"/>
+        </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="87ddd374-e966-4e0b-9dd5-9fc51da4e2e1" name="Interfaces"/>
