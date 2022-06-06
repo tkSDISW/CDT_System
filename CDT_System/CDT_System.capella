@@ -17,7 +17,7 @@
     xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/5.0.0"
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/5.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/5.0.0"
-    id="7192dde1-0520-4c02-802b-dcbb4039e381"
+    xmlns:re="http://www.polarsys.org/capella/common/re/5.0.0" id="7192dde1-0520-4c02-802b-dcbb4039e381"
     name="CDT_System">
   <ownedExtensions xsi:type="libraries:ModelInformation" id="ab28286b-1f97-42ef-b148-8859f5f698b9"/>
   <ownedEnumerationPropertyTypes xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyType"
@@ -39,6 +39,7 @@
       key="projectApproach" value="SingletonComponents"/>
   <ownedModelRoots xsi:type="org.polarsys.capella.core.data.capellamodeller:SystemEngineering"
       id="9c7dee94-b332-48a9-b5df-be600e6cef75" name="CDT_System">
+    <ownedExtensions xsi:type="re:GroupingElementPkg" id="1206d550-df42-4fab-9d8f-446df8a282ad"/>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.oa:OperationalAnalysis"
         id="a1cfd817-9eaa-492f-bc6f-708c978e7b6a" name="Operational Analysis">
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
@@ -404,8 +405,8 @@
               id="2602a7eb-68a7-4566-be78-8113dee1b9f4" name="Evaluation" target="#839e21c6-b5f8-48a1-ad48-a83faf460254"
               source="#15d135a4-0f8b-4abf-82dd-2ad1a1784b64"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="e71caa94-b428-41fe-93e0-c3c148b57ac5" name="Concussion Alert" target="#3abfdb59-a609-4c38-a6f5-344e5777f238"
-              source="#051e9982-3689-4ba8-8505-2b91062dc9e4"/>
+              id="e71caa94-b428-41fe-93e0-c3c148b57ac5" name="Concussion Alert to Trainer"
+              target="#3abfdb59-a609-4c38-a6f5-344e5777f238" source="#051e9982-3689-4ba8-8505-2b91062dc9e4"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="ff3820bc-b497-437f-95f4-f2737ea67797" name="Activity" target="#a91ac496-6375-4764-a73e-2c6069bdf77d"
               source="#6d39206e-30f2-4564-9fa3-9418aede8db5"/>
@@ -515,7 +516,7 @@
                 id="3cd5d2eb-ee2d-4a2b-bed2-6e8e3e7aa540" name="Stored Data" kind="ASYNCHRONOUS_CALL"
                 sendingEnd="#0b7cbe9b-009e-4a98-9e27-61481ee3315b" receivingEnd="#84cc8eb4-78a9-4001-a1fb-843f0bd68fde"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
-                id="d60e7ee5-7d0e-4ce9-bf2f-bc95269b895a" name="Concussion Alert"
+                id="d60e7ee5-7d0e-4ce9-bf2f-bc95269b895a" name="Concussion Alert to Trainer"
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#b4745d5c-79f7-48e7-9703-8db159816d35"
                 receivingEnd="#6c610d10-250c-4dd8-b41b-058be81a3e67"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
@@ -775,7 +776,7 @@
                 id="c2036b4f-89b4-4f12-aaa8-148e721e6d29" name="Stored Data" kind="ASYNCHRONOUS_CALL"
                 sendingEnd="#0667fcca-572d-40b8-a8e9-bb47b4a297ab" receivingEnd="#3a82ae84-b8d0-4f8b-ac60-1b22c37412e5"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
-                id="4f1752da-4d2e-4480-a424-ab212c3b8378" name="Concussion Alert"
+                id="4f1752da-4d2e-4480-a424-ab212c3b8378" name="Concussion Alert to Trainer"
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#4bd51481-feb5-41a5-959c-f084c5828f87"
                 receivingEnd="#87133ee6-2e31-4a97-b3da-fc390f1eefdd"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
