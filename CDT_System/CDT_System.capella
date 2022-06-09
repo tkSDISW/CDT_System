@@ -8048,6 +8048,14 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="b5f0c860-ad6c-4cf3-9b6d-8c21bfc8fd03" name="Helmut" nature="NODE">
+            <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+                id="ce0e63f9-2bef-4dfa-a5a8-49aae04ec04e" name="" constrainedElements="#b5f0c860-ad6c-4cf3-9b6d-8c21bfc8fd03">
+              <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                  id="b8649140-f1bf-4a6c-8064-66ffbc24f569">
+                <bodies></bodies>
+                <languages>capella:linkedText</languages>
+              </ownedSpecification>
+            </ownedConstraints>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="056aec13-eb94-4afa-8a62-c03782b46d0a"
                 name="Sensor" abstractType="#8a1a4239-0407-43b0-8cb0-38eec5df2039"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b3eca382-8b07-44cd-828b-d0adfab71007"
@@ -8071,6 +8079,14 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="367ff96b-152e-4c52-82ec-fd1e1a733a2e" name="LORAWAN Gateway" nature="NODE">
+            <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+                id="19554a79-1752-4709-815b-854da02965f2" name="" constrainedElements="#367ff96b-152e-4c52-82ec-fd1e1a733a2e">
+              <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                  id="daf4c99c-614e-417f-b58d-e473bcf247c8">
+                <bodies></bodies>
+                <languages>capella:linkedText</languages>
+              </ownedSpecification>
+            </ownedConstraints>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="ad469e28-a94f-40fa-8585-268fcd1fdfbe" name="To LORA Nodes">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
