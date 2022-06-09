@@ -6558,12 +6558,6 @@
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
               id="8121e2f6-7001-4673-9e48-7705aa8cba60" name="Data is Retrieved">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="b354c358-34c5-4804-86ad-cd7930d23dcf" name="inStored Data">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="686d3677-6881-4a41-b97e-110a412f10d2" targetElement="#14490978-f6a2-4bbf-9453-59e313c92e7b"
-                  sourceElement="#b354c358-34c5-4804-86ad-cd7930d23dcf"/>
-            </inputs>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
                 id="76f4cee3-5d12-478a-a7dd-7218b3e5046f" name="Intitate Data Retrieval">
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
@@ -6625,6 +6619,12 @@
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                     id="4f216b7a-5be8-484c-9ceb-2b3d5046116d" targetElement="#2b677385-4016-4ce2-9e19-9a3ffed3a093"
                     sourceElement="#965d6dae-769c-467c-b665-d3441cf70ee3"/>
+              </inputs>
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="b354c358-34c5-4804-86ad-cd7930d23dcf" name="inStored Data">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="686d3677-6881-4a41-b97e-110a412f10d2" targetElement="#14490978-f6a2-4bbf-9453-59e313c92e7b"
+                    sourceElement="#b354c358-34c5-4804-86ad-cd7930d23dcf"/>
               </inputs>
               <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                   id="51aacb87-43b3-450e-b061-70a85d08e434" targetElement="#af37a9c1-6cc8-4307-960a-ad78181629f0"
@@ -7031,20 +7031,14 @@
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
               id="b74a16be-dd72-4e55-b692-e204d0a96921" name="Device alerts possible Concussion">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="b0c7ee73-97c3-4979-adf6-664480e7fdc4" name="inConcussion">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="4cd597aa-d1a7-4ea4-baec-193e9ba4999c" targetElement="#b6b81887-72d1-455d-8d5a-9981d9379c31"
-                  sourceElement="#b0c7ee73-97c3-4979-adf6-664480e7fdc4"/>
-            </inputs>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="d8e1fc92-af71-401f-adf3-1abbb7856b3f" name="outConcussion Alert to Trainer">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="29c807b1-0465-48b1-a7f7-0b92be8e5beb" targetElement="#1979cf15-678d-462e-9bf8-4fd5c7966db5"
-                  sourceElement="#d8e1fc92-af71-401f-adf3-1abbb7856b3f"/>
-            </outputs>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
                 id="6b26a353-112b-4eb0-9219-5f4025bee4ac" name="Send message">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="b0c7ee73-97c3-4979-adf6-664480e7fdc4" name="inConcussion">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="4cd597aa-d1a7-4ea4-baec-193e9ba4999c" targetElement="#b6b81887-72d1-455d-8d5a-9981d9379c31"
+                    sourceElement="#b0c7ee73-97c3-4979-adf6-664480e7fdc4"/>
+              </inputs>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                   id="5ec0cec7-65e6-4c8a-bd82-dc7fc8520eea" name="FOP 1">
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -7104,6 +7098,12 @@
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                     id="d3f2b9be-5b43-495f-83eb-c0a9b61e7978" targetElement="#83158867-a232-40d9-ab3f-b31f5507bfd3"
                     sourceElement="#733b6299-9bc1-4100-a708-e029641787a5"/>
+              </outputs>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="d8e1fc92-af71-401f-adf3-1abbb7856b3f" name="outConcussion Alert to Trainer">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="29c807b1-0465-48b1-a7f7-0b92be8e5beb" targetElement="#1979cf15-678d-462e-9bf8-4fd5c7966db5"
+                    sourceElement="#d8e1fc92-af71-401f-adf3-1abbb7856b3f"/>
               </outputs>
               <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                   id="0b81c04a-666c-4f48-8364-b0a49c546aa8" targetElement="#db746a84-1293-4365-95f2-2671e677d6c3"
@@ -7781,9 +7781,17 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0475c75b-c55c-440f-b69a-441e565a56a3"
               name="ISP" abstractType="#96152406-d78e-4d40-8850-c5f395adace7"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f9559380-0fe9-4827-8aac-de3caf9317ed"
-              name="IPAD" abstractType="#7e5dbe1a-9b1f-4e9a-8e88-058dd4a52000"/>
+              name="IPAD" abstractType="#7e5dbe1a-9b1f-4e9a-8e88-058dd4a52000">
+            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                id="63b5afed-6f50-45f0-8bf4-6cbbeef25bf1" deployedElement="#9e861f6a-1061-4c07-b495-6883820d61fa"
+                location="#f9559380-0fe9-4827-8aac-de3caf9317ed"/>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bb254988-4e46-46af-889b-28b086c141e7"
-              name="Cloud Server" abstractType="#ed9060d7-85f2-4fd0-b2c6-9c00cac1cae0"/>
+              name="Cloud Server" abstractType="#ed9060d7-85f2-4fd0-b2c6-9c00cac1cae0">
+            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                id="bba038fa-bfd7-4d74-8bd9-13d998898065" deployedElement="#29235325-be4b-46ee-8810-c4713172d6d9"
+                location="#bb254988-4e46-46af-889b-28b086c141e7"/>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3ff23c89-c0c6-4676-9cb8-36a5ce905e13"
               name="Cellular Network ISP" abstractType="#31da7e7c-78b2-4f22-8ea8-0156e5311bf9"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="54785c92-dbd6-47a5-8b17-dd3734b0a8bb"
@@ -7811,6 +7819,8 @@
               id="f9617c9b-7337-4817-8a66-cd2a71fda0c3" name="Cellula" linkEnds="#3b74c65e-a0f6-4d75-8ff5-f4dd24c869c8 #4aeb69e0-ba8a-4528-9203-0604a9a97e63"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="af8d9743-7c6e-423b-bc26-388aaca51cd5" name="WIFI" linkEnds="#b51f595f-73f0-4a99-a4e5-5fe230769d30 #ab06fdec-60e0-4e56-8846-dda71e1d7d68"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="a6a47da1-8ebc-4ec2-b5ee-79fd8db421ea" name="Blue tooth" linkEnds="#3ff25fb3-e26d-4a69-843c-d2d890026c94 #4b6f1582-dd3e-4cf0-becd-fd674034d0c8"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="876f5312-a02e-4f57-941e-1c405de86b3f" name="Secure Application"
               nature="BEHAVIOR">
@@ -8057,19 +8067,29 @@
               </ownedSpecification>
             </ownedConstraints>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="056aec13-eb94-4afa-8a62-c03782b46d0a"
-                name="Sensor" abstractType="#8a1a4239-0407-43b0-8cb0-38eec5df2039"/>
+                name="Sensor" abstractType="#8a1a4239-0407-43b0-8cb0-38eec5df2039">
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="627c9520-5f7c-443a-8f4b-cadc19452bee" deployedElement="#9df55c64-d3ea-4d4a-b319-789a8ff977a8"
+                  location="#056aec13-eb94-4afa-8a62-c03782b46d0a"/>
+            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b3eca382-8b07-44cd-828b-d0adfab71007"
-                name="ID" abstractType="#d7543beb-f9bb-4905-ba5f-9a612dc49650"/>
+                name="ID" abstractType="#d7543beb-f9bb-4905-ba5f-9a612dc49650">
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="debd0350-54b2-4e2b-9409-91e6b67d5d73" deployedElement="#7bf2488f-716f-4cb1-8f29-789383b4af5e"
+                  location="#b3eca382-8b07-44cd-828b-d0adfab71007"/>
+            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="01dcc99d-086f-4408-a2f5-7d8122fe48ab" name="PP 3"/>
             <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-                id="17a882c6-874d-47e9-aa4c-49d3cf825348" name="PL 1" linkEnds="#9a2aaf72-abb5-4464-99c3-ec238243fca6 #41ae9b05-2d0d-49d3-a599-2cbb1d5929df"/>
+                id="17a882c6-874d-47e9-aa4c-49d3cf825348" name="Physical" linkEnds="#9a2aaf72-abb5-4464-99c3-ec238243fca6 #41ae9b05-2d0d-49d3-a599-2cbb1d5929df"/>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="8a1a4239-0407-43b0-8cb0-38eec5df2039" name="Sensor" nature="NODE">
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="9a2aaf72-abb5-4464-99c3-ec238243fca6" name="PP 1"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="f88d27b8-8f4c-4b8c-9eca-dff2636df7e7" name="PP 2"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="3ff25fb3-e26d-4a69-843c-d2d890026c94" name="PP 3"/>
             </ownedPhysicalComponents>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="d7543beb-f9bb-4905-ba5f-9a612dc49650" name="ID" nature="NODE">
@@ -8154,6 +8174,8 @@
                 id="9f106fa4-309d-413e-89de-a5161596e7b9" name="PP 1"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="ebd6958a-8033-4116-ab1e-b5e2199a3b36" name="PP 2"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="4b6f1582-dd3e-4cf0-becd-fd674034d0c8" name="PP 3"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="ed9060d7-85f2-4fd0-b2c6-9c00cac1cae0" name="Cloud Server" nature="NODE">
