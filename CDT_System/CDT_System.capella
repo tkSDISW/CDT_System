@@ -7881,7 +7881,11 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2d51b1d4-5bd8-465f-8b9d-2e4d90d1774b"
               name="Bluetooth" abstractType="#8749509f-823f-4bf7-994a-dd9fb826ad5d"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3d5c8d02-cb93-4692-8b81-8ce393e4e0e7"
-              name="Helmut" abstractType="#b5f0c860-ad6c-4cf3-9b6d-8c21bfc8fd03"/>
+              name="Helmut" abstractType="#b5f0c860-ad6c-4cf3-9b6d-8c21bfc8fd03">
+            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                id="2345f7df-d02a-4eb0-b62e-3655ecfddc6e" deployedElement="#a03e4d68-60ea-4704-a0a1-c3e9a90639c3"
+                location="#3d5c8d02-cb93-4692-8b81-8ce393e4e0e7"/>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2af3550c-48da-4b50-b39a-d80cd594b4d8"
               name="LORAWAN Gateway" abstractType="#367ff96b-152e-4c52-82ec-fd1e1a733a2e">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
@@ -7990,6 +7994,9 @@
           </ownedPhysicalPath>
           <ownedPhysicalPath xsi:type="org.polarsys.capella.core.data.cs:PhysicalPath"
               id="e0b28f42-1b61-4ff5-90d2-3f70f046d72c" name="LORA Pathay">
+            <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
+                id="20162018-27eb-4c01-b907-0ab260e2b939" targetElement="#1438c433-9b09-4395-82e0-10a3be0be574"
+                sourceElement="#e0b28f42-1b61-4ff5-90d2-3f70f046d72c"/>
             <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
                 id="cc12eaf2-c48a-4d16-9b86-f2410e0cbdcc" involved="#2af3550c-48da-4b50-b39a-d80cd594b4d8"
                 nextInvolvements="#c87bd1d2-cdff-4c46-a331-c406a48cd61b"/>
@@ -8622,9 +8629,17 @@
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="ed9060d7-85f2-4fd0-b2c6-9c00cac1cae0" name="Cloud Server" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="fd137f99-0584-4033-bcf4-4f062a6fa009" name="PP 1"/>
+                id="fd137f99-0584-4033-bcf4-4f062a6fa009" name="PP 1">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="134b043e-b803-4a39-95c6-81e716bd2632" targetElement="#110420e9-f5ce-4001-8543-5b1758340a60"
+                  sourceElement="#fd137f99-0584-4033-bcf4-4f062a6fa009"/>
+            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="56c355e7-7981-434f-a343-ff54c2703e94" name="PP 2"/>
+                id="56c355e7-7981-434f-a343-ff54c2703e94" name="PP 2">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="26a41108-fac6-4201-9754-ef251fbe8511" targetElement="#98539dfa-8657-4ce2-bce4-bcf8dbffd6ce"
+                  sourceElement="#56c355e7-7981-434f-a343-ff54c2703e94"/>
+            </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="31da7e7c-78b2-4f22-8ea8-0156e5311bf9" name="Cellular Network ISP"
