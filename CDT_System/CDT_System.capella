@@ -396,7 +396,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="71d8012b-b4c3-4362-aade-6883c8f481a0" name="Assemble System Components"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="aba6a3c5-68c9-4ac6-afd4-ffbd5a740787" name="Provide access to helmut mounting"/>
+              id="aba6a3c5-68c9-4ac6-afd4-ffbd5a740787" name="Provide access to helmet mounting"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="fab7e454-f7f9-42df-bc26-766bc6376e4c" name="Provide access to sensing device mounting"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
@@ -444,7 +444,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="16dec77c-04b6-4a88-82fc-f0a9923a1f44" name="Generates Reports"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="a91ac496-6375-4764-a73e-2c6069bdf77d" name="Helmut Receives a Hit"/>
+              id="a91ac496-6375-4764-a73e-2c6069bdf77d" name="Helmet Receives a Hit"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="82dff05a-5340-49ce-965a-fa8c592e912e" name="Device records Hit"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
@@ -474,7 +474,7 @@
               id="a58925f4-2c77-4d13-a5a8-ab0774fcf3e6" name="System" target="#71d8012b-b4c3-4362-aade-6883c8f481a0"
               source="#861aea45-950e-4270-9063-157bee06ce98"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="a67bdeeb-5438-494e-b4c8-5566a801ffa9" name="helmut mounting" target="#71d8012b-b4c3-4362-aade-6883c8f481a0"
+              id="a67bdeeb-5438-494e-b4c8-5566a801ffa9" name="helmet mounting" target="#71d8012b-b4c3-4362-aade-6883c8f481a0"
               source="#aba6a3c5-68c9-4ac6-afd4-ffbd5a740787"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="8536e8a8-d249-4f41-8ae0-a99b8f0f2bac" name="sensor mounting" target="#71d8012b-b4c3-4362-aade-6883c8f481a0"
@@ -495,7 +495,7 @@
               id="847cf44e-6cd6-43b0-8c34-e69ddcea37fb" name="Sensor Ready" target="#8ad1b73b-9c07-473f-b7f8-d96baf30391b"
               source="#1931703c-ee97-42ea-a6ab-295eb2c4fff9"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="dda5962e-7600-48b7-9539-8d8221660ea2" name="Helmut Motion" target="#8ad1b73b-9c07-473f-b7f8-d96baf30391b"
+              id="dda5962e-7600-48b7-9539-8d8221660ea2" name="Helmet Motion" target="#8ad1b73b-9c07-473f-b7f8-d96baf30391b"
               source="#df55ebc4-c4c1-4fff-8c10-b1d0ae4cd40b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="8558f31b-5008-4689-b4e7-d6fe30fbcb7e" name="Head " target="#df55ebc4-c4c1-4fff-8c10-b1d0ae4cd40b"
@@ -627,7 +627,7 @@
                 id="beab706a-4efa-4293-be95-40814a72429a" name="Athlete Particpates in Activity"
                 representedInstance="#6d39206e-30f2-4564-9fa3-9418aede8db5"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="982adb09-f437-4cf0-bf0f-a0647766da54" name="Helmut Receives a Hit"
+                id="982adb09-f437-4cf0-bf0f-a0647766da54" name="Helmet Receives a Hit"
                 representedInstance="#a91ac496-6375-4764-a73e-2c6069bdf77d"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="4c7afb03-d848-4005-98b9-6af599251171" name="Device records Hit"
@@ -893,8 +893,7 @@
                 id="68bcdab5-8d3d-4356-bfbe-b3bfcae63d54" name="Athlete Particpates in Activity"
                 representedInstance="#329948e5-8347-4225-9cfc-7f9c84df80a6"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="286833be-29f2-48d2-b50f-7f685beb383c" name="Helmut Receives a Hit"
-                representedInstance="#87d94653-3763-4223-a940-1480b28bbda4"/>
+                id="286833be-29f2-48d2-b50f-7f685beb383c" name="Helmet" representedInstance="#87d94653-3763-4223-a940-1480b28bbda4"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="536fae51-7b58-4a8d-860f-9b8f851d0347" name="Device records Hit"
                 representedInstance="#f63cc64d-66e3-474e-b7a1-e502f18e67d6"/>
@@ -1048,7 +1047,7 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="8c4fe050-7915-44f5-83b1-6461a3250be6"
             name="ID Device" abstractType="#81255b24-7b62-4f1e-a715-afeb3feb9ecd"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="87d94653-3763-4223-a940-1480b28bbda4"
-            name="Helmut" abstractType="#1c68d929-b187-44dd-9d46-692a26d61f5b"/>
+            name="Helmet" abstractType="#1c68d929-b187-44dd-9d46-692a26d61f5b"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="f63cc64d-66e3-474e-b7a1-e502f18e67d6"
             name="Sensing Device" abstractType="#4b6faa5d-4abf-4992-b353-9ce31f94c203"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="2dd12504-d68a-46ce-976a-f0850bf02299"
@@ -1148,7 +1147,7 @@
               sourceElement="#81255b24-7b62-4f1e-a715-afeb3feb9ecd"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="1c68d929-b187-44dd-9d46-692a26d61f5b"
-            name="Helmut">
+            name="Helmet">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="3aecadb3-07fe-419e-a716-dc142540c085" targetElement="#fab7e454-f7f9-42df-bc26-766bc6376e4c"
               sourceElement="#1c68d929-b187-44dd-9d46-692a26d61f5b"/>
@@ -1804,7 +1803,7 @@
                 sourceElement="#f4ad0364-0591-49e6-9142-28a83ecd50d1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="ba48a6d3-d0c9-42c3-b55a-a2fbeeb28d12" name="Place on Helmut">
+              id="ba48a6d3-d0c9-42c3-b55a-a2fbeeb28d12" name="Place on Helmet">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="f827a688-ff44-433f-a72a-e42d103f27da" name="inReady to put on Helmut"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -1880,7 +1879,7 @@
                 sourceElement="#07e103ac-c488-4cef-9ccb-300fb763e781"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="189bb27c-1dc5-4e40-a1c5-5228b8fe3d02" name="Recieve Enabled Signal from Athelete Helmut">
+              id="189bb27c-1dc5-4e40-a1c5-5228b8fe3d02" name="Recieve Enabled Signal from Athelete Helmet">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="aabea095-f615-4408-97dd-190e14d3ae1a" name="inEnable Signal"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
@@ -1966,7 +1965,7 @@
                 sourceElement="#4b3c7ef9-1909-4000-8d28-57f9f2ae8f5f"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="8bd57a12-7ef1-4d66-a456-706438e2bd91" name="Helmut Receives a Hit">
+              id="8bd57a12-7ef1-4d66-a456-706438e2bd91" name="Helmet Receives a Hit">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="d24a0619-7ac6-4da4-850b-8dd2123c8eb2" name="inActivity"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -2035,7 +2034,7 @@
                 sourceElement="#6e077666-2c4b-4b4f-bc52-f3c820eb640d"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="db063bdb-25e6-4b61-8fa6-8afa652d070e" name="helmut mounting" target="#7e2b4fbc-b913-43cb-8d7e-1c2a89e2b107"
+              id="db063bdb-25e6-4b61-8fa6-8afa652d070e" name="helmet mounting" target="#7e2b4fbc-b913-43cb-8d7e-1c2a89e2b107"
               source="#fa799033-2c6b-4959-9e64-48dc9e5fd42d">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="76f5ff3a-a979-48ff-ad76-71d06775aef7" targetElement="#a67bdeeb-5438-494e-b4c8-5566a801ffa9"
@@ -2077,7 +2076,7 @@
                 sourceElement="#6aaff874-bc5c-4b3a-8750-2b5cb9ffa876"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d2aa068f-0d8a-43cf-95af-f9db099ebadf" name="Helmut Motion" target="#67baeb1e-87ad-4053-969d-5e6bc3b7d67c"
+              id="d2aa068f-0d8a-43cf-95af-f9db099ebadf" name="Helmet Motion" target="#67baeb1e-87ad-4053-969d-5e6bc3b7d67c"
               source="#7474109d-7918-4b83-8e91-cdf53336a850">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="b327a2f5-ae43-45b5-a2ac-6993e14b19a4" targetElement="#dda5962e-7600-48b7-9539-8d8221660ea2"
@@ -2168,7 +2167,7 @@
                 sourceElement="#0a7f17b0-3306-4d7a-8196-b6a4818100ac"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="64ccd66f-c036-4a8e-89f0-88294cf921ff" name="Ready to put on Helmut"
+              id="64ccd66f-c036-4a8e-89f0-88294cf921ff" name="Ready to put on Helmet"
               target="#f827a688-ff44-433f-a72a-e42d103f27da" source="#52e159d4-677e-41ec-842e-d0f4c9d7d35d">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="dfa6cc2d-d3f6-462f-9faa-a20a56c4915d" targetElement="#675e0c82-d4c3-4978-b1e5-074e665f8324"
@@ -2811,7 +2810,7 @@
               sourceElement="#433c35a6-bd20-4389-a16a-e8b2f4992a2b"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="49fc9358-0d99-48df-8ce8-9633d09f5276" name="Helmut">
+            id="49fc9358-0d99-48df-8ce8-9633d09f5276" name="Helmet">
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="deeea1ec-159f-4f81-99fc-c373341fad6a" targetElement="#1c68d929-b187-44dd-9d46-692a26d61f5b"
               sourceElement="#49fc9358-0d99-48df-8ce8-9633d09f5276"/>
@@ -4137,7 +4136,7 @@
                 source="#59015b7e-b9a4-4436-9d41-e3bc5adb22ea"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="bde556fe-d6d7-493d-9ed0-ed1c354b1aa7" name="Helmut Receives a Hit">
+              id="bde556fe-d6d7-493d-9ed0-ed1c354b1aa7" name="Helmet Receives a Hit">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="fb696faf-bb69-451d-b0e6-e5330062f509" name="inActivity">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -4216,7 +4215,7 @@
                 sourceElement="#0bb64163-5187-4559-aa62-9bccb4369cfe"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="e9d82fae-346e-4c0b-9a92-dcc49d7a2bbb" name="helmut mounting" target="#00d24558-5a38-4498-be07-359c8657be5d"
+              id="e9d82fae-346e-4c0b-9a92-dcc49d7a2bbb" name="helmet mounting" target="#00d24558-5a38-4498-be07-359c8657be5d"
               source="#dd2daff0-3fdc-483c-8b8d-855d9d0e4d16">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="64b70195-b2e3-46f3-ba96-40e383c6f7f1" targetElement="#db063bdb-25e6-4b61-8fa6-8afa652d070e"
@@ -4258,7 +4257,7 @@
                 sourceElement="#00d758e5-8a75-4f64-b22e-78cc1cadaeb8"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="56e3f648-295a-488f-b3d0-b6c6fd35f619" name="Helmut Motion" target="#ffc63507-fb03-4229-8cf3-9565f3f2c6a1"
+              id="56e3f648-295a-488f-b3d0-b6c6fd35f619" name="Helmet Motion" target="#ffc63507-fb03-4229-8cf3-9565f3f2c6a1"
               source="#ad94cda5-44d0-4d69-b074-b49bebc76fdc">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="235d11d9-232b-4f23-bc4f-1d076e673b63" targetElement="#d2aa068f-0d8a-43cf-95af-f9db099ebadf"
@@ -4349,7 +4348,7 @@
                 sourceElement="#1006a2a3-51b8-4014-b186-94587fe4de06"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="ca27fda2-31e3-46f1-8961-666dd0d43912" name="Ready to put on Helmut"
+              id="ca27fda2-31e3-46f1-8961-666dd0d43912" name="Ready to put on Helmet"
               target="#22bd0c02-55c9-4e56-9860-4fe2d43bc40b" source="#f2912981-afac-4fb6-aeae-21fd212d4682">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="91cd112b-8e38-4180-b042-32f249dab83f" targetElement="#64ccd66f-c036-4a8e-89f0-88294cf921ff"
@@ -4483,7 +4482,7 @@
                 id="f67c3d19-7c7a-4f3a-8fcc-6b00696e715a" name="Athlete Particpates in Activity"
                 representedInstance="#e2b22929-583b-40fd-83c2-a9d1a64227a1"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="2d048b6b-1a65-4e7c-a546-d5f7bf9dfe31" name="Helmut Receives a Hit"
+                id="2d048b6b-1a65-4e7c-a546-d5f7bf9dfe31" name="Helmet Receives a Hit"
                 representedInstance="#bde556fe-d6d7-493d-9ed0-ed1c354b1aa7"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="048c5170-1799-4868-b629-f7a0601f5d5a" name="Device records Hit"
@@ -4903,7 +4902,7 @@
                 id="c3055e27-e5ac-4eb9-ae8b-02721048e611" name="Athlete Particpates in Activity"
                 representedInstance="#aba24d31-1267-475d-964d-38f05a60fdb1"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="c9d79e4b-c3c1-4366-84d0-5666ca840814" name="Helmut Receives a Hit"
+                id="c9d79e4b-c3c1-4366-84d0-5666ca840814" name="Helmet Receives a Hit"
                 representedInstance="#8df37726-59cc-46f5-aa3c-495c150981cf"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="f8423154-73d8-454e-b33d-9d864ffa00f3" name="Device records Hit"
@@ -5157,7 +5156,7 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ad6449d0-b39e-4012-9ae9-5d9d70b77a03"
               name="ID Device" abstractType="#e77c7f12-bdd3-4d14-bd2d-b9002382d999"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8df37726-59cc-46f5-aa3c-495c150981cf"
-              name="Helmut" abstractType="#3f9eaf95-f8f9-4742-a258-bec862312a7c"/>
+              name="Helmet Receives a Hit" abstractType="#3f9eaf95-f8f9-4742-a258-bec862312a7c"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f33834f4-4b7d-4de0-82df-3ceedce78339"
               name="Sensing Device" abstractType="#474b9c16-f46b-431c-bcec-d9139e4b85c1"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="792afdd4-f6e5-47ac-9361-b80b9a7f13d1"
@@ -5202,7 +5201,7 @@
                 sourceElement="#e77c7f12-bdd3-4d14-bd2d-b9002382d999"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="3f9eaf95-f8f9-4742-a258-bec862312a7c" name="Helmut">
+              id="3f9eaf95-f8f9-4742-a258-bec862312a7c" name="Helmet Receives a Hit">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="eebdb447-be21-49c1-9bd6-2843c0c1300b" targetElement="#e7016106-2dfa-4635-8518-5fcab8a4d9bb"
                 sourceElement="#3f9eaf95-f8f9-4742-a258-bec862312a7c"/>
@@ -6191,7 +6190,7 @@
             </ownedFunctionalExchanges>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
-              id="28e4dc6f-7ba9-4fdd-bf2d-1c5889a0e6ba" name="Recieve Enabled Signal from Athelete Helmut">
+              id="28e4dc6f-7ba9-4fdd-bf2d-1c5889a0e6ba" name="Recieve Enabled Signal from Athelete Helmet">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="3b24ae79-8615-4cb5-a356-d852ac1f4d06" name="inEnable Signal">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -6403,7 +6402,7 @@
             </ownedFunctionalExchanges>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
-              id="348311f5-e02b-4329-90bf-07c88a0e4531" name="Helmut Receives a Hit">
+              id="348311f5-e02b-4329-90bf-07c88a0e4531" name="Helmet Receives a Hit">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="394fd7cb-3366-487b-9053-5a047a6cf669" name="inActivity">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -6445,7 +6444,7 @@
                 sourceElement="#c162bfe2-1a2c-4b98-afaf-93131c0183e8"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
-              id="ba833e4d-75b6-4764-b345-95b2fdb8abb4" name="Place on Helmut">
+              id="ba833e4d-75b6-4764-b345-95b2fdb8abb4" name="Place on Helmet">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="c5834d54-c42b-4dd0-8a48-72b19089b181" name="inReady to put on Helmut">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -7235,7 +7234,7 @@
                 sourceElement="#33df8ee7-ec53-401b-ad2d-a4b5ed379d65"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="22090920-c6f9-46bd-98bf-3d5e170f291f" name="helmut mounting" target="#3a4966c8-e40a-4d0b-a807-e39c9d1215f5"
+              id="22090920-c6f9-46bd-98bf-3d5e170f291f" name="helmet mounting" target="#3a4966c8-e40a-4d0b-a807-e39c9d1215f5"
               source="#8d24ae9d-9b98-4c89-a715-98dcc74c65b4">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="c1403ede-296a-4cbe-bac2-0ed90d970c57" targetElement="#e9d82fae-346e-4c0b-9a92-dcc49d7a2bbb"
@@ -7277,7 +7276,7 @@
                 sourceElement="#7ce6b399-9ac1-4a1b-b0d8-408b5659bcd3"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="7b17df23-af62-44ed-acba-7747c33550e5" name="Helmut Motion" target="#11af4446-55c2-49af-ada4-f57b73412d08"
+              id="7b17df23-af62-44ed-acba-7747c33550e5" name="Helmet Motion" target="#11af4446-55c2-49af-ada4-f57b73412d08"
               source="#3555ee84-1c59-4bee-94cd-80d186c2b306">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="47596574-11d8-4626-8e0b-684a51d0cc57" targetElement="#56e3f648-295a-488f-b3d0-b6c6fd35f619"
@@ -7368,7 +7367,7 @@
                 sourceElement="#06a84b77-2a20-41cc-9152-8af91456e9f7"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="7cae195c-34e2-448e-853e-b8945137813d" name="Ready to put on Helmut"
+              id="7cae195c-34e2-448e-853e-b8945137813d" name="Ready to put on Helmet"
               target="#c5834d54-c42b-4dd0-8a48-72b19089b181" source="#3d9f351c-a004-48fb-932c-c85d6ba8e0f8">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="503675a6-cae6-4fc9-ad0f-4e815e350ad5" targetElement="#ca27fda2-31e3-46f1-8961-666dd0d43912"
@@ -7511,7 +7510,7 @@
                 id="eb3a05fd-121a-4157-97a5-b7acf2c1520f" name="Athlete Particpates in Activity"
                 representedInstance="#98c9c0f2-907f-4c3b-9fcd-605e88c59ee9"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="74e7c7c8-4e83-4102-ba6a-3d57180759b5" name="Helmut Receives a Hit"
+                id="74e7c7c8-4e83-4102-ba6a-3d57180759b5" name="Helmet Receives a Hit"
                 representedInstance="#348311f5-e02b-4329-90bf-07c88a0e4531"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="3ac07f5d-8d1f-4fa2-abca-3f1b287b5ff7" name="Device records Hit"
@@ -7752,7 +7751,7 @@
               sourceElement="#d3ff6ff7-8a77-4063-b64f-81586525ac97"/>
         </ownedComponentExchanges>
         <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-            id="493be545-84f1-46b5-9be9-7e385503dec8" name="Helmut Fit" linkEnds="#1b05da8b-e043-4506-8d90-dec34a9d3450 #01dcc99d-086f-4408-a2f5-7d8122fe48ab">
+            id="493be545-84f1-46b5-9be9-7e385503dec8" name="Helmet Fit" linkEnds="#1b05da8b-e043-4506-8d90-dec34a9d3450 #01dcc99d-086f-4408-a2f5-7d8122fe48ab">
           <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
               id="6e8b9e84-610d-47d9-b51e-0efc0c4cf3ce" targetElement="#d3ff6ff7-8a77-4063-b64f-81586525ac97"
               sourceElement="#493be545-84f1-46b5-9be9-7e385503dec8"/>
@@ -7900,7 +7899,7 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7bf2488f-716f-4cb1-8f29-789383b4af5e"
               name="ID Device" abstractType="#9016acd9-9ff1-4820-a2f6-51ac9ec69b43"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a03e4d68-60ea-4704-a0a1-c3e9a90639c3"
-              name="Helmut" abstractType="#f77ded72-d9eb-4372-891b-31a9de73842d"/>
+              name="Helmet" abstractType="#f77ded72-d9eb-4372-891b-31a9de73842d"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9df55c64-d3ea-4d4a-b319-789a8ff977a8"
               name="Sensing Device" abstractType="#69715026-6b0d-4bdc-9ccb-92d9972d7a34"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="384a39c4-e2fe-45c0-b416-78be2024a458"
@@ -7910,7 +7909,7 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2d51b1d4-5bd8-465f-8b9d-2e4d90d1774b"
               name="Bluetooth" abstractType="#8749509f-823f-4bf7-994a-dd9fb826ad5d"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3d5c8d02-cb93-4692-8b81-8ce393e4e0e7"
-              name="Helmut" abstractType="#b5f0c860-ad6c-4cf3-9b6d-8c21bfc8fd03">
+              name="Helmet" abstractType="#b5f0c860-ad6c-4cf3-9b6d-8c21bfc8fd03">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="2345f7df-d02a-4eb0-b62e-3655ecfddc6e" deployedElement="#a03e4d68-60ea-4704-a0a1-c3e9a90639c3"
                 location="#3d5c8d02-cb93-4692-8b81-8ce393e4e0e7"/>
@@ -8325,7 +8324,7 @@
                 sourceElement="#9016acd9-9ff1-4820-a2f6-51ac9ec69b43"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="f77ded72-d9eb-4372-891b-31a9de73842d" name="Helmut" nature="BEHAVIOR">
+              id="f77ded72-d9eb-4372-891b-31a9de73842d" name="Helmet" nature="BEHAVIOR">
             <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
                 id="0c1990c7-b1cb-41e3-8f22-a1aafb7c3e96" targetElement="#eebdb447-be21-49c1-9bd6-2843c0c1300b"
                 sourceElement="#63f93da6-c2fa-4df3-b563-e52abd871064"/>
@@ -8598,7 +8597,7 @@
                 sourceElement="#8749509f-823f-4bf7-994a-dd9fb826ad5d"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="b5f0c860-ad6c-4cf3-9b6d-8c21bfc8fd03" name="Helmut" nature="NODE">
+              id="b5f0c860-ad6c-4cf3-9b6d-8c21bfc8fd03" name="Helmet" nature="NODE">
             <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
                 id="ce0e63f9-2bef-4dfa-a5a8-49aae04ec04e" name="" constrainedElements="#b5f0c860-ad6c-4cf3-9b6d-8c21bfc8fd03">
               <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
