@@ -8023,7 +8023,7 @@
                 id="e6fb25c5-b5bd-4876-8ca5-1365fbd5f2f9" involved="#bb254988-4e46-46af-889b-28b086c141e7"/>
           </ownedPhysicalPath>
           <ownedPhysicalPath xsi:type="org.polarsys.capella.core.data.cs:PhysicalPath"
-              id="e0b28f42-1b61-4ff5-90d2-3f70f046d72c" name="LORA Pathay">
+              id="e0b28f42-1b61-4ff5-90d2-3f70f046d72c" name="LORA Pathway">
             <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
                 id="20162018-27eb-4c01-b907-0ab260e2b939" targetElement="#1438c433-9b09-4395-82e0-10a3be0be574"
                 sourceElement="#e0b28f42-1b61-4ff5-90d2-3f70f046d72c"/>
@@ -8175,7 +8175,7 @@
                 sourceElement="#a6a47da1-8ebc-4ec2-b5ee-79fd8db421ea"/>
           </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="d4c8c560-66aa-48d7-a1eb-254e80c4ce70" name="PL 10" linkEnds="#147c8a24-f05d-46e0-8726-fb727a2be4a1 #03141ce3-d4db-48ce-bbac-945e50a015eb"/>
+              id="d4c8c560-66aa-48d7-a1eb-254e80c4ce70" name="&#x9;WIFI" linkEnds="#147c8a24-f05d-46e0-8726-fb727a2be4a1 #03141ce3-d4db-48ce-bbac-945e50a015eb"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="0a823c44-46ee-42de-8cf3-2e815731a5e8" name="ID to Router" linkEnds="#147c8a24-f05d-46e0-8726-fb727a2be4a1 #69ef0405-474b-402c-9195-402ef18a9b02"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
