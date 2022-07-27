@@ -2,7 +2,8 @@
 
 <!--Capella_Version_5.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/5.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapellaRequirements="http://www.polarsys.org/capella/requirements"
+    xmlns:Requirements="http://www.polarsys.org/kitalpha/requirements" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/5.0.0"
     xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/5.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/5.0.0"
     xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/5.0.0"
@@ -1183,6 +1184,14 @@
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="076c4478-9d95-4f7d-8559-b8e6cc98b297" name="System Analysis">
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="299ecbdb-1b93-4b1d-aaeb-628432524b34"
+          ReqIFLongName="Product Specification" ReqIFName="Product Specification">
+        <ownedRequirements xsi:type="Requirements:Requirement" id="5d624fd5-5b77-4dbb-90d1-b728106e43b5"
+            ReqIFLongName="CDS-392 - The system shall of a range of 5 km for active sensors.Should Have, Draft, [Target Version]">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="f50ea843-ae17-4212-bf46-29688cc2c037"
+              source="#5d624fd5-5b77-4dbb-90d1-b728106e43b5" target="#10e307d1-550d-4e2c-8462-6ed3a887a741"/>
+        </ownedRequirements>
+      </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
           id="d4a98177-7c71-423e-abb6-89138e1fb72e" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
