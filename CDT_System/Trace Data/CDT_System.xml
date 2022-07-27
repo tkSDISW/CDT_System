@@ -1,9 +1,4 @@
 <CDT_System>
  <trace>
-<<<<<<< HEAD
-	<workitem><!-- @wi.implements CDS-392  CDT_System::CDT_System::Physical Architecture::Structure::Physical System::CDT App -->CDT_System::CDT_System::Physical Architecture::Structure::Physical System::CDT App</workitem>
-=======
-	<workitem><!-- @wi.implements CDS-393  CDT_System::CDT_System::Physical Architecture::Structure::Physical System::CDT App -->CDT_System::CDT_System::Physical Architecture::Structure::Physical System::CDT App</workitem>
->>>>>>> branch 'LORAWAN_with_Trace_to_Requirements' of https://github.com/tkSDISW/CDT_System
- </trace>
-</CDT_System>
+ <workitem><!-- @wi.implements CDS-392 CDT_System::CDT_System::Physical Architecture::Structure::Physical System::LORAWAN Gateway --></workitem>
+ </CDT_System>

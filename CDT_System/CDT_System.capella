@@ -1188,8 +1188,8 @@
           ReqIFLongName="Product Specification" ReqIFName="Product Specification">
         <ownedRequirements xsi:type="Requirements:Requirement" id="5d624fd5-5b77-4dbb-90d1-b728106e43b5"
             ReqIFLongName="CDS-392 - The system shall of a range of 5 km for active sensors.Should Have, Draft, [Target Version]">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="f50ea843-ae17-4212-bf46-29688cc2c037"
-              source="#5d624fd5-5b77-4dbb-90d1-b728106e43b5" target="#10e307d1-550d-4e2c-8462-6ed3a887a741"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="eb7c002e-77fa-4951-b6e2-479429d397d5"
+              source="#5d624fd5-5b77-4dbb-90d1-b728106e43b5" target="#367ff96b-152e-4c52-82ec-fd1e1a733a2e"/>
         </ownedRequirements>
       </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
