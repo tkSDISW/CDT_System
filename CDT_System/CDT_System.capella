@@ -2368,9 +2368,7 @@
               id="8d658507-73d9-471d-80ef-bce9745dd0e5" involved="#27fd84f7-6acb-4ce8-8145-e0553c63575c"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="de12aa31-c1ba-4dae-b224-5c6b9378bcad" name="Detect Concussion" appliedPropertyValues="#89701912-b2da-4df5-8f61-ee2417e35520">
-          <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
-              id="89701912-b2da-4df5-8f61-ee2417e35520" name="Polarion Trace" value="@wi https://polarion.diswx.com/polarion/redirect/project/ConcussionDetectionSystem/workitem?id=CDS-392"/>
+            id="de12aa31-c1ba-4dae-b224-5c6b9378bcad" name="Detect Concussion">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="54392a7d-4268-4eb6-b173-057cdc75cc19" targetElement="#8a652579-0524-42e5-881d-fba81beda149"
               sourceElement="#efdfe1cb-1ceb-435c-9a89-1f1082321306"/>
