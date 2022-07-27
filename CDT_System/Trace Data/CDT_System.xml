@@ -1,5 +1,5 @@
 <CDT_System>
  <trace>
-<workitem><!-- @wi.implments CDS-392  Behavior Component -->CDT_System::CDT_System::Physical Architecture::Structure::Physical System::CDT App</workitem>
+	<workitem><!-- @wi.implements CDS-392  Behavior Component -->CDT_System::CDT_System::Physical Architecture::Structure::Physical System::CDT App</workitem>
  </trace>
 </CDT_System>
