@@ -8455,7 +8455,7 @@
               id="10e307d1-550d-4e2c-8462-6ed3a887a741" appliedPropertyValues="#0c8a0ae5-97cd-483c-9c78-076247e0098b"
               name="CDT App" nature="BEHAVIOR">
             <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
-                id="0c8a0ae5-97cd-483c-9c78-076247e0098b" name="CDT App" value="&lt;!-- @wi.implments ConcussionDetectionSystem/CDS-392  Behavior Component -->"/>
+                id="0c8a0ae5-97cd-483c-9c78-076247e0098b" name="CDT App" value="&lt;!-- @wi.implments ConcussionDetectionSystem/CDS-392  Behavior Component --><!-- @wi.implments ConcussionDetectionSystem/CDS-392  Behavior Component -->"/>
             <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
                 id="995b4905-2a92-4de5-ba2b-1260a9e3d8fa" targetElement="#a35c6a99-9ecc-4328-8e54-9c053379ad6a"
                 sourceElement="#8221817b-9f28-4926-90a2-5407be48e893"/>
