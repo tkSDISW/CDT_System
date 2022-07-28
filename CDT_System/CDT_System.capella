@@ -5444,6 +5444,82 @@
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.pa:PhysicalArchitecture"
         id="e651f3e7-f3f1-4388-a1ce-602204cf16a3" name="Physical Architecture">
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaTypesFolder" id="c7cbbf9e-d45c-4730-ad29-b96f878b49d4"
+          ReqIFIdentifier="_1cbdfcd8-116e-41a1-be7c-e0e64ec5194e" ReqIFLongName="Types Folder">
+        <ownedDefinitionTypes xsi:type="Requirements:DataTypeDefinition" id="f6809aeb-63e6-4742-a26c-3940904cf097"
+            ReqIFLongName="Integer"/>
+        <ownedTypes xsi:type="Requirements:ModuleType" id="bdb6945c-2741-474a-8bb5-a775434737c6"
+            ReqIFIdentifier="polarion_live_document" ReqIFLongName="Polarion Live Document"/>
+        <ownedTypes xsi:type="Requirements:RequirementType" id="265047d8-487e-4ff9-9658-70862583e395"
+            ReqIFIdentifier="_b1a8b9ae-e77a-4771-980c-688da685c2f7" ReqIFLongName="Heading"/>
+        <ownedTypes xsi:type="Requirements:RequirementType" id="aeb7bc69-c0c0-4e44-8d09-0a4774f80927"
+            ReqIFIdentifier="_aaa02eab-09a1-4283-b675-6d5c9d9bdfe9" ReqIFLongName="Requirement">
+          <ownedAttributes xsi:type="Requirements:AttributeDefinition" id="31c25a1e-5c1a-4810-a8f7-84e4bb886e8f"
+              ReqIFLongName="UniqueIdentifier" definitionType="#f6809aeb-63e6-4742-a26c-3940904cf097"/>
+        </ownedTypes>
+      </ownedExtensions>
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="460be26a-a541-4d13-a55f-e314cfc7570f"
+          ReqIFIdentifier="_9282a4fd-fd87-4e4f-9718-e27f798ecf95" ReqIFLongName="Product Specification"
+          moduleType="#bdb6945c-2741-474a-8bb5-a775434737c6">
+        <ownedRequirements xsi:type="Requirements:Folder" id="cefdeb24-0b74-49a0-9b81-5cf5322f9dad"
+            ReqIFIdentifier="rmf-07ef76ce-ff2d-47d1-8e23-76400405ae90" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+            ReqIFChapterName="Introduction" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7">
+          <ownedRequirements xsi:type="Requirements:Requirement" id="c1629eb2-7d44-4369-91c6-85e6de900f70"
+              ReqIFIdentifier="rmf-b9201971-8c68-4a7c-935a-06d25bb4bda5" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+              ReqIFChapterName="Purpose" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="63d2d05d-b934-401f-8ffd-631f86b975d5"
+              ReqIFIdentifier="rmf-069cfbbb-eb45-4bb1-8385-280a497ecd1d" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+              ReqIFChapterName="Scope" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="080b6f28-ca95-434d-bcff-3a32c49dfbe5"
+              ReqIFIdentifier="rmf-67e88404-3e7f-4e15-9315-3d9864697401" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+              ReqIFChapterName="References" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Folder" id="d4c83438-3c86-4c00-9277-6aecfa02b882"
+            ReqIFIdentifier="rmf-fe24e95f-661e-4ce0-a22f-0aa8d805577d" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+            ReqIFChapterName="Functional Requirement" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7">
+          <ownedRequirements xsi:type="Requirements:Requirement" id="52e96d9f-4b05-45d8-b0d3-aac4deef7ac0"
+              ReqIFIdentifier="rmf-0e67d26c-c5b3-4ec4-b57e-d791d7c4b6b2" ReqIFPrefix="CDS"
+              requirementType="#aeb7bc69-c0c0-4e44-8d09-0a4774f80927" ReqIFChapterName="Detection"
+              ReqIFText="&lt;p>The system shall be able to alert a trainer when a concussion is detected.&lt;/p>&#xA;"
+              requirementTypeProxy="_aaa02eab-09a1-4283-b675-6d5c9d9bdfe9"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Folder" id="15dc4d5c-6868-4128-847b-46fbc676c7a3"
+            ReqIFIdentifier="rmf-e23a1b7d-ee23-4757-a814-8d9f7132a998" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+            ReqIFChapterName="Nonfunctional Requirements" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7">
+          <ownedRequirements xsi:type="Requirements:Folder" id="92758428-b590-4404-9b02-673c99d2f7ff"
+              ReqIFIdentifier="rmf-7a62a1e6-e15a-4d0a-96c9-fb0a76de3604" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+              ReqIFChapterName="Performance Requirements" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="0a326f15-9398-4c58-8249-ed5241820353"
+                ReqIFIdentifier="rmf-c15e6b1e-0ba2-4d05-b816-5f18ffbfae65" requirementType="#aeb7bc69-c0c0-4e44-8d09-0a4774f80927"
+                ReqIFChapterName="The system shall of a range of 5 km for active sensors."
+                requirementTypeProxy="_aaa02eab-09a1-4283-b675-6d5c9d9bdfe9"/>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="cda3de00-5692-4ebd-b441-a326883888dc"
+              ReqIFIdentifier="rmf-84d97602-ce1d-4679-815b-3efa7d359afd" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+              ReqIFChapterName="Safety Requirements" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="49841d0e-c0bc-41e2-ba72-eabdc1eacb9c"
+              ReqIFIdentifier="rmf-da8503c4-f651-4716-a634-e55398e334ad" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+              ReqIFChapterName="Security Requirements" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="72a9b387-395e-4b0e-950d-d4fe0af523ec"
+              ReqIFIdentifier="rmf-fb119d2e-7f9b-4feb-abe3-717e1d1e95c9" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+              ReqIFChapterName="Software Quality Attributes" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="c5b85bb4-3f11-4b4d-95e4-3e39fb07989f"
+              ReqIFIdentifier="rmf-19fce553-d966-41db-a6ae-a10c46f83c1a" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+              ReqIFChapterName="Other Requirements" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="bad04c60-3e66-4f9e-94bf-a55a0d6e33bb"
+            ReqIFIdentifier="rmf-a70e9136-6070-4a94-82ab-6c63b05a2c81" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+            ReqIFChapterName="Overall Description" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="70586789-a0a5-4f8a-ae59-eaa2f1f699f8"
+            ReqIFIdentifier="rmf-1c236e73-f8c7-4168-9d01-868781a788eb" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+            ReqIFChapterName="Product Backlog" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="c91ea154-c4d4-4466-88db-e410041badf4"
+            ReqIFIdentifier="rmf-83f9647a-2ee9-47b7-81fa-01ca4f9d767e" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+            ReqIFChapterName="Appendix A: Terminology/Glossary/Definitions list" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="77941991-0317-4365-9d24-84b077454865"
+            ReqIFIdentifier="rmf-c5860b54-6948-49a0-bc8a-0737d48ede04" requirementType="#265047d8-487e-4ff9-9658-70862583e395"
+            ReqIFChapterName="Appendix B: Analysis Models" requirementTypeProxy="_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+      </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunctionPkg"
           id="0f22a73e-f1fa-4374-b118-5ec56dc57a76" name="Physical Functions">
         <ownedPhysicalFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.diffmerge.bridge.traces.gen:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.emf.diffmerge.bridge.traces.gen="http://www.eclipse.org/emf/diffmerge/bridge/1.0.0/traces">
+  <targetToCause key="460be26a-a541-4d13-a55f-e314cfc7570f" value="Source[_9282a4fd-fd87-4e4f-9718-e27f798ecf95]_Rule[Module]|_9282a4fd-fd87-4e4f-9718-e27f798ecf95"/>
+  <targetToCause key="cefdeb24-0b74-49a0-9b81-5cf5322f9dad" value="Source[rmf-07ef76ce-ff2d-47d1-8e23-76400405ae90]_Rule[Folder]|rmf-07ef76ce-ff2d-47d1-8e23-76400405ae90"/>
+  <targetToCause key="c1629eb2-7d44-4369-91c6-85e6de900f70" value="Source[rmf-b9201971-8c68-4a7c-935a-06d25bb4bda5]_Rule[Requirement]|rmf-b9201971-8c68-4a7c-935a-06d25bb4bda5"/>
+  <targetToCause key="63d2d05d-b934-401f-8ffd-631f86b975d5" value="Source[rmf-069cfbbb-eb45-4bb1-8385-280a497ecd1d]_Rule[Requirement]|rmf-069cfbbb-eb45-4bb1-8385-280a497ecd1d"/>
+  <targetToCause key="080b6f28-ca95-434d-bcff-3a32c49dfbe5" value="Source[rmf-67e88404-3e7f-4e15-9315-3d9864697401]_Rule[Requirement]|rmf-67e88404-3e7f-4e15-9315-3d9864697401"/>
+  <targetToCause key="d4c83438-3c86-4c00-9277-6aecfa02b882" value="Source[rmf-fe24e95f-661e-4ce0-a22f-0aa8d805577d]_Rule[Folder]|rmf-fe24e95f-661e-4ce0-a22f-0aa8d805577d"/>
+  <targetToCause key="52e96d9f-4b05-45d8-b0d3-aac4deef7ac0" value="Source[rmf-0e67d26c-c5b3-4ec4-b57e-d791d7c4b6b2]_Rule[Requirement]|rmf-0e67d26c-c5b3-4ec4-b57e-d791d7c4b6b2"/>
+  <targetToCause key="15dc4d5c-6868-4128-847b-46fbc676c7a3" value="Source[rmf-e23a1b7d-ee23-4757-a814-8d9f7132a998]_Rule[Folder]|rmf-e23a1b7d-ee23-4757-a814-8d9f7132a998"/>
+  <targetToCause key="92758428-b590-4404-9b02-673c99d2f7ff" value="Source[rmf-7a62a1e6-e15a-4d0a-96c9-fb0a76de3604]_Rule[Folder]|rmf-7a62a1e6-e15a-4d0a-96c9-fb0a76de3604"/>
+  <targetToCause key="0a326f15-9398-4c58-8249-ed5241820353" value="Source[rmf-c15e6b1e-0ba2-4d05-b816-5f18ffbfae65]_Rule[Requirement]|rmf-c15e6b1e-0ba2-4d05-b816-5f18ffbfae65"/>
+  <targetToCause key="cda3de00-5692-4ebd-b441-a326883888dc" value="Source[rmf-84d97602-ce1d-4679-815b-3efa7d359afd]_Rule[Requirement]|rmf-84d97602-ce1d-4679-815b-3efa7d359afd"/>
+  <targetToCause key="49841d0e-c0bc-41e2-ba72-eabdc1eacb9c" value="Source[rmf-da8503c4-f651-4716-a634-e55398e334ad]_Rule[Requirement]|rmf-da8503c4-f651-4716-a634-e55398e334ad"/>
+  <targetToCause key="72a9b387-395e-4b0e-950d-d4fe0af523ec" value="Source[rmf-fb119d2e-7f9b-4feb-abe3-717e1d1e95c9]_Rule[Requirement]|rmf-fb119d2e-7f9b-4feb-abe3-717e1d1e95c9"/>
+  <targetToCause key="c5b85bb4-3f11-4b4d-95e4-3e39fb07989f" value="Source[rmf-19fce553-d966-41db-a6ae-a10c46f83c1a]_Rule[Requirement]|rmf-19fce553-d966-41db-a6ae-a10c46f83c1a"/>
+  <targetToCause key="bad04c60-3e66-4f9e-94bf-a55a0d6e33bb" value="Source[rmf-a70e9136-6070-4a94-82ab-6c63b05a2c81]_Rule[Requirement]|rmf-a70e9136-6070-4a94-82ab-6c63b05a2c81"/>
+  <targetToCause key="70586789-a0a5-4f8a-ae59-eaa2f1f699f8" value="Source[rmf-1c236e73-f8c7-4168-9d01-868781a788eb]_Rule[Requirement]|rmf-1c236e73-f8c7-4168-9d01-868781a788eb"/>
+  <targetToCause key="c91ea154-c4d4-4466-88db-e410041badf4" value="Source[rmf-83f9647a-2ee9-47b7-81fa-01ca4f9d767e]_Rule[Requirement]|rmf-83f9647a-2ee9-47b7-81fa-01ca4f9d767e"/>
+  <targetToCause key="77941991-0317-4365-9d24-84b077454865" value="Source[rmf-c5860b54-6948-49a0-bc8a-0737d48ede04]_Rule[Requirement]|rmf-c5860b54-6948-49a0-bc8a-0737d48ede04"/>
+  <targetToCause key="265047d8-487e-4ff9-9658-70862583e395" value="Source[_b1a8b9ae-e77a-4771-980c-688da685c2f7]_Rule[Type]|_b1a8b9ae-e77a-4771-980c-688da685c2f7"/>
+  <targetToCause key="aeb7bc69-c0c0-4e44-8d09-0a4774f80927" value="Source[_aaa02eab-09a1-4283-b675-6d5c9d9bdfe9]_Rule[Type]|_aaa02eab-09a1-4283-b675-6d5c9d9bdfe9"/>
+  <targetToCause key="bdb6945c-2741-474a-8bb5-a775434737c6" value="Source[polarion_live_document]_Rule[Type]|polarion_live_document"/>
+</org.eclipse.emf.diffmerge.bridge.traces.gen:Trace>
