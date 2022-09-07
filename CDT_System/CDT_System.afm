@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata:Metadata xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metadata="http://www.polarsys.org/kitalpha/ad/metadata/1.0.0" id="_hJ-hUNILEey998MgR9V3OA">
   <viewpointReferences id="_hX-hENILEey998MgR9V3OA" vpId="org.polarsys.capella.core.viewpoint" version="5.1.0"/>
+  <viewpointReferences id="_kcbykC67Ee2ncdWt8mK1Yg" vpId="org.polarsys.kitalpha.vp.requirements" version="0.12.1"/>
+  <viewpointReferences id="_kgNfUC67Ee2ncdWt8mK1Yg" vpId="org.polarsys.capella.vp.requirements" version="0.12.1"/>
   <additionalMetadata href="../LORAWAN_Library/LORAWAN_Library.afm#_pG_04IQwEeyGXp5AE6XhWA"/>
   <additionalMetadata href="../Lorwan%20Devices/Lorwan%20Devices.afm#_NOXlYG_dEeyAkuNm35BY5A"/>
 </metadata:Metadata>

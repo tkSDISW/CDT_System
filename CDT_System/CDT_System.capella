@@ -2,7 +2,8 @@
 
 <!--Capella_Version_5.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/5.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapellaRequirements="http://www.polarsys.org/capella/requirements"
+    xmlns:Requirements="http://www.polarsys.org/kitalpha/requirements" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/5.0.0"
     xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/5.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/5.0.0"
     xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/5.0.0"
@@ -5155,7 +5156,13 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8df37726-59cc-46f5-aa3c-495c150981cf"
               name="Helmet Receives a Hit" abstractType="#3f9eaf95-f8f9-4742-a258-bec862312a7c"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f33834f4-4b7d-4de0-82df-3ceedce78339"
-              name="Sensing Device" abstractType="#474b9c16-f46b-431c-bcec-d9139e4b85c1"/>
+              name="Sensing Device" abstractType="#474b9c16-f46b-431c-bcec-d9139e4b85c1">
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="4efa95a4-bc85-4bc9-ad49-af957744ef3e" source="#474b9c16-f46b-431c-bcec-d9139e4b85c1"/>
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="cfc21b54-3526-4f41-8aa9-ac01d46c9a7a" source="#474b9c16-f46b-431c-bcec-d9139e4b85c1"
+                target="#7163502b-8e91-4019-aed4-d6530590d614"/>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="792afdd4-f6e5-47ac-9361-b80b9a7f13d1"
               name="Lorawan" abstractType="#f51508f5-da2c-4359-9d05-f449a53981cc"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a9063705-633e-423a-a877-1aa46d6817c0"
@@ -5435,6 +5442,61 @@
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.pa:PhysicalArchitecture"
         id="e651f3e7-f3f1-4388-a1ce-602204cf16a3" name="Physical Architecture">
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="fbc3839d-4de6-44f8-a9df-6e7efd7d809f"
+          ReqIFLongName="Product Specification" ReqIFName="Product Specification">
+        <ownedRequirements xsi:type="Requirements:Folder" id="a0e55fb4-377f-46af-afc0-c3c340479d4e"
+            ReqIFLongName="1 CDS-370 Introduction" ReqIFName="CDS-370 Introduction"
+            ReqIFPrefix="CDS-370">
+          <ownedRequirements xsi:type="Requirements:Folder" id="cce7845d-a052-4c52-94a0-2564e3fa57d0"
+              ReqIFLongName="1.1 CDS-390 Purpose" ReqIFName="CDS-390 Purpose" ReqIFPrefix="CDS-390"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="e3a6275d-8e85-43d7-89be-3b45c830db65"
+              ReqIFLongName="1.2 CDS-310 Scope" ReqIFName="CDS-310 Scope" ReqIFPrefix="CDS-310"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="2406b9d6-0297-4d31-91a1-39fba61717cb"
+              ReqIFLongName="1.3 CDS-311 References" ReqIFName="CDS-311 References"
+              ReqIFPrefix="CDS-311"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Folder" id="80670ab2-da9e-4a26-8b94-8092f2d7b571"
+            ReqIFLongName="2 CDS-313 Overall Description" ReqIFName="CDS-313 Overall Description"
+            ReqIFPrefix="CDS-313"/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="4a204da3-280e-4d86-bc44-a3f0cf7a9e3a"
+            ReqIFLongName="3 CDS-314 Product Backlog" ReqIFName="CDS-314 Product Backlog"
+            ReqIFPrefix="CDS-314"/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="68318e08-3c13-49c0-b5fe-2950166362a3"
+            ReqIFLongName="4 CDS-394 Functional Requirement" ReqIFName="CDS-394 Functional Requirement"
+            ReqIFPrefix="CDS-394"/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="7163502b-8e91-4019-aed4-d6530590d614"
+            ReqIFLongName="4-1 CDS-395 Detection" ReqIFName="CDS-395 Detection" ReqIFPrefix="CDS-395"/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="4838e049-0325-4fc6-9c9e-50a28e959b35"
+            ReqIFLongName="5 CDS-316 Nonfunctional Requirements" ReqIFName="CDS-316 Nonfunctional Requirements"
+            ReqIFPrefix="CDS-316">
+          <ownedRequirements xsi:type="Requirements:Folder" id="2947b301-fe58-49fc-9177-5493961275a5"
+              ReqIFLongName="5.1 CDS-317 Performance Requirements" ReqIFName="CDS-317 Performance Requirements"
+              ReqIFPrefix="CDS-317"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="06a8103c-f8c1-4ed0-8330-9d7297f1120a"
+              ReqIFLongName="5.1-1 CDS-392 The system shall of a range of 5 km for active sensors."
+              ReqIFName="CDS-392 The system shall of a range of 5 km for active sensors."
+              ReqIFPrefix="CDS-392"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="706e1ef4-e5c7-4297-9a74-8aa875b50531"
+              ReqIFLongName="5.2 CDS-318 Safety Requirements" ReqIFName="CDS-318 Safety Requirements"
+              ReqIFPrefix="CDS-318"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="01963b24-7821-4266-9252-3b35344bf1c0"
+              ReqIFLongName="5.3 CDS-319 Security Requirements" ReqIFName="CDS-319 Security Requirements"
+              ReqIFPrefix="CDS-319"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="5bac4c14-4a03-479e-9269-f122d59d5fec"
+              ReqIFLongName="5.4 CDS-320 Software Quality Attributes" ReqIFName="CDS-320 Software Quality Attributes"
+              ReqIFPrefix="CDS-320"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="ed469a21-ac0f-48ae-ad50-9e32dc995109"
+              ReqIFLongName="5.5 CDS-321 Other Requirements" ReqIFName="CDS-321 Other Requirements"
+              ReqIFPrefix="CDS-321"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Folder" id="8db53670-db08-4fd0-a091-0d4b95581dd0"
+            ReqIFLongName="6 CDS-322 Appendix A: Terminology/Glossary/Definitions list"
+            ReqIFName="CDS-322 Appendix A: Terminology/Glossary/Definitions list"
+            ReqIFPrefix="CDS-322"/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="06b9e54e-be46-43a9-9e67-627816e8406a"
+            ReqIFLongName="7 CDS-323 Appendix B: Analysis Models" ReqIFName="CDS-323 Appendix B: Analysis Models"
+            ReqIFPrefix="CDS-323"/>
+      </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunctionPkg"
           id="0f22a73e-f1fa-4374-b118-5ec56dc57a76" name="Physical Functions">
         <ownedPhysicalFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
