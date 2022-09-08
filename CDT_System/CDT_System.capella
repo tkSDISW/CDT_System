@@ -5159,9 +5159,6 @@
               name="Sensing Device" abstractType="#474b9c16-f46b-431c-bcec-d9139e4b85c1">
             <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
                 id="4efa95a4-bc85-4bc9-ad49-af957744ef3e" source="#474b9c16-f46b-431c-bcec-d9139e4b85c1"/>
-            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-                id="cfc21b54-3526-4f41-8aa9-ac01d46c9a7a" source="#474b9c16-f46b-431c-bcec-d9139e4b85c1"
-                target="#7163502b-8e91-4019-aed4-d6530590d614"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="792afdd4-f6e5-47ac-9361-b80b9a7f13d1"
               name="Lorawan" abstractType="#f51508f5-da2c-4359-9d05-f449a53981cc"/>
@@ -6057,6 +6054,9 @@
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
               id="c26ff8c6-e228-4f1a-a9c1-77ea56692c64" name="Detect Concussion">
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="efd6c45d-8b2a-4210-97e3-d70b6d79e984" source="#c26ff8c6-e228-4f1a-a9c1-77ea56692c64"
+                target="#7163502b-8e91-4019-aed4-d6530590d614"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="ac8edf02-380d-4c3a-af23-2792105cad59" involved="#9cf0b319-b000-4762-a282-3c1bc1f8d9f2"
                 source="#78a94b18-601b-4873-9330-b91f78bf78e2" target="#d0d86a17-3178-41ad-9e04-e20ec2af445a"/>
@@ -8657,6 +8657,9 @@
             </ownedConstraints>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="056aec13-eb94-4afa-8a62-c03782b46d0a"
                 name="Sensor" abstractType="#8a1a4239-0407-43b0-8cb0-38eec5df2039">
+              <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                  id="b91f5885-2ae5-4ff6-87d3-6f47c4715d22" source="#8a1a4239-0407-43b0-8cb0-38eec5df2039"
+                  target="#7163502b-8e91-4019-aed4-d6530590d614"/>
               <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                   id="627c9520-5f7c-443a-8f4b-cadc19452bee" deployedElement="#9df55c64-d3ea-4d4a-b319-789a8ff977a8"
                   location="#056aec13-eb94-4afa-8a62-c03782b46d0a"/>
@@ -8689,7 +8692,8 @@
                   sourceElement="#bc095b8c-942f-4d94-92d7-f77914c9fd34"/>
             </ownedPhysicalLinks>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="8a1a4239-0407-43b0-8cb0-38eec5df2039" name="Sensor" nature="NODE">
+                id="8a1a4239-0407-43b0-8cb0-38eec5df2039" description="&lt;p>This is the Sensor&lt;/p>&#xA;"
+                name="Sensor" nature="NODE">
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="9a2aaf72-abb5-4464-99c3-ec238243fca6" name="PP 1">
                 <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
