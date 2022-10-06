@@ -5441,66 +5441,76 @@
         id="e651f3e7-f3f1-4388-a1ce-602204cf16a3" name="Physical Architecture">
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="d1bbf8b2-f590-44e7-8a90-4dd9014a16b2"
           ReqIFLongName="https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/wiki/Specification/Product%20Specification"
-          ReqIFName="Product Specification">
-        <ownedRequirements xsi:type="Requirements:Folder" id="2e5d3c70-05d3-44aa-ae20-b5e2b924d708"
-            ReqIFLongName="1 CDS-370 Introduction" ReqIFName="CDS-370 Introduction"
-            ReqIFPrefix="CDS-370" ReqIFText="&lt;p>1 CDS-370 Introduction&lt;/p>&#xA;">
-          <ownedRequirements xsi:type="Requirements:Folder" id="70243ee5-5702-401b-8e11-aa099593b3b5"
-              ReqIFLongName="1.1 CDS-390 Purpose" ReqIFName="CDS-390 Purpose" ReqIFPrefix="CDS-390"/>
-          <ownedRequirements xsi:type="Requirements:Folder" id="3638939c-8135-4607-b3d5-672a2d7901b9"
-              ReqIFLongName="1.2 CDS-310 Scope" ReqIFName="CDS-310 Scope" ReqIFPrefix="CDS-310"/>
-          <ownedRequirements xsi:type="Requirements:Folder" id="e15cd9b6-3494-4572-b997-ec25c36499c1"
-              ReqIFLongName="1.3 CDS-311 References" ReqIFName="CDS-311 References"
-              ReqIFPrefix="CDS-311"/>
+          ReqIFName="Introduction">
+        <ownedRequirements xsi:type="Requirements:Folder" id="5d5cb1ad-c604-4840-a334-2313b2e455e1"
+            ReqIFLongName="1 CDS-370 Introduction" ReqIFName="CDS-370: Introduction"
+            ReqIFPrefix="CDS-370" ReqIFText="&lt;p>CDS-370: Introduction&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-370&quot;>CDS-370&lt;/a>&lt;/p>">
+          <ownedRequirements xsi:type="Requirements:Folder" id="30878699-9bea-4b5f-91d0-c6b86d259e0b"
+              ReqIFLongName="1.1 CDS-390 Purpose" ReqIFName="CDS-390: Purpose" ReqIFPrefix="CDS-390"
+              ReqIFText="&lt;p>CDS-390: Purpose&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-390&quot;>CDS-390&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="5af8681c-6c9d-41ef-afec-532f23c47b17"
+              ReqIFLongName="1.2 CDS-310 Scope" ReqIFName="CDS-310: Scope" ReqIFPrefix="CDS-310"
+              ReqIFText="&lt;p>CDS-310: Scope&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-310&quot;>CDS-310&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="7c35c707-6247-40d8-a574-a69b6b169f1a"
+              ReqIFLongName="1.3 CDS-311 References" ReqIFName="CDS-311: References"
+              ReqIFPrefix="CDS-311" ReqIFText="&lt;p>CDS-311: References&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-311&quot;>CDS-311&lt;/a>&lt;/p>"/>
         </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Folder" id="ba5609ac-f979-461d-a927-8686eeb50910"
-            ReqIFLongName="2 CDS-313 Overall Description" ReqIFName="CDS-313 Overall Description"
-            ReqIFPrefix="CDS-313"/>
-        <ownedRequirements xsi:type="Requirements:Folder" id="86c93988-f0ad-40f3-806f-9799c1dfea69"
-            ReqIFLongName="3 CDS-314 Product Backlog" ReqIFName="CDS-314 Product Backlog"
-            ReqIFPrefix="CDS-314"/>
-        <ownedRequirements xsi:type="Requirements:Folder" id="f2c6b1e3-cbff-40cb-8061-8208ed95bab7"
-            ReqIFLongName="4 CDS-394 Functional Requirement" ReqIFName="CDS-394 Functional Requirement"
-            ReqIFPrefix="CDS-394"/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="c95158fe-544c-4add-9d31-a7364ca07525"
-            ReqIFLongName="4-1 CDS-463 The system shall support a sensor that can be installed into a helmet."
-            ReqIFName="CDS-463 The system shall support a sensor that can be installed into a helmet."
-            ReqIFPrefix="CDS-463"/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="1a0c0090-14bd-41fd-9184-89c5e7c8995e"
-            ReqIFLongName="4-2 CDS-462 Trainer Notification" ReqIFName="CDS-462 Trainer Notification"
-            ReqIFPrefix="CDS-462"/>
-        <ownedRequirements xsi:type="Requirements:Folder" id="8acb3bd8-f4e4-46f5-bafb-d21d4d4814c1"
-            ReqIFLongName="5 CDS-316 Nonfunctional Requirements" ReqIFName="CDS-316 Nonfunctional Requirements"
-            ReqIFPrefix="CDS-316">
-          <ownedRequirements xsi:type="Requirements:Folder" id="f9354ba2-856a-46de-8db3-8a05b96ee3c7"
-              ReqIFLongName="5.1 CDS-317 Performance Requirements" ReqIFName="CDS-317 Performance Requirements"
-              ReqIFPrefix="CDS-317"/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="280f1f77-8810-4cf8-9baa-4acf62a0a659"
-              ReqIFLongName="5.1-1 CDS-392 Operational Range" ReqIFName="CDS-392 Operational Range"
-              ReqIFPrefix="CDS-392"/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="c03e7259-cd9b-4536-b31e-c79f077d61b8"
-              ReqIFLongName="5.1-2 CDS-464 Notification Time" ReqIFName="CDS-464 Notification Time"
-              ReqIFPrefix="CDS-464"/>
-          <ownedRequirements xsi:type="Requirements:Folder" id="0d5d7721-c928-4fe8-84b4-a36e6efe90e6"
-              ReqIFLongName="5.2 CDS-318 Safety Requirements" ReqIFName="CDS-318 Safety Requirements"
-              ReqIFPrefix="CDS-318"/>
-          <ownedRequirements xsi:type="Requirements:Folder" id="eed9a690-fa0a-4d8b-be3d-74d89d3e965c"
-              ReqIFLongName="5.3 CDS-319 Security Requirements" ReqIFName="CDS-319 Security Requirements"
-              ReqIFPrefix="CDS-319"/>
-          <ownedRequirements xsi:type="Requirements:Folder" id="e436b484-a2ce-49cd-bab2-5cdee16c8d05"
-              ReqIFLongName="5.4 CDS-320 Software Quality Attributes" ReqIFName="CDS-320 Software Quality Attributes"
-              ReqIFPrefix="CDS-320"/>
-          <ownedRequirements xsi:type="Requirements:Folder" id="a1182dbb-9995-48ea-b470-c6da4ad73088"
-              ReqIFLongName="5.5 CDS-321 Other Requirements" ReqIFName="CDS-321 Other Requirements"
-              ReqIFPrefix="CDS-321"/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="8c3b5e78-d11d-4321-b28c-e59a0188d07a"
+            ReqIFLongName="2 CDS-313 Overall Description" ReqIFName="CDS-313: Overall Description"
+            ReqIFPrefix="CDS-313" ReqIFText="&lt;p>CDS-313: Overall Description&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-313&quot;>CDS-313&lt;/a>&lt;/p>"/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="f971371d-cc21-4013-a330-d432aa7ac3e4"
+            ReqIFLongName="3 CDS-314 Product Backlog" ReqIFName="CDS-314: Product Backlog"
+            ReqIFPrefix="CDS-314" ReqIFText="&lt;p>CDS-314: Product Backlog&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-314&quot;>CDS-314&lt;/a>&lt;/p>"/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="1d0011fc-f992-4e71-a841-cee6b8834d08"
+            ReqIFLongName="4 CDS-394 Functional Requirement" ReqIFName="CDS-394: Functional Requirement"
+            ReqIFPrefix="CDS-394" ReqIFText="&lt;p>CDS-394: Functional Requirement&lt;/p>&lt;p>Updated: 2022/09/08, 13:24:12&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-394&quot;>CDS-394&lt;/a>&lt;/p>"/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="afe5a2c5-b2e9-46be-8fe2-1bd5dc03f2e2"
+            ReqIFLongName="4-1 CDS-463: Sensor Install" ReqIFName="CDS-463: Sensor Install"
+            ReqIFPrefix="CDS-463" ReqIFText="&lt;p>CDS-463: Sensor Install&lt;/p>&lt;p>Updated: 2022/09/29, 16:28:21&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-463&quot;>CDS-463&lt;/a>&lt;/p>"/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="a5589166-d1ee-47d4-a270-caa22de5c161"
+            ReqIFLongName="4-2 CDS-462: Trainer Notification" ReqIFName="CDS-462: Trainer Notification"
+            ReqIFPrefix="CDS-462" ReqIFText="&lt;p>CDS-462: Trainer Notification&lt;/p>&lt;p>Updated: 2022/09/30, 15:56:38&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-462&quot;>CDS-462&lt;/a>&lt;/p>"/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="fac24661-fdc3-4cd2-8672-fd89e55c0fc3"
+            ReqIFLongName="4-3 CDS-395: Detection" ReqIFName="CDS-395: Detection"
+            ReqIFPrefix="CDS-395" ReqIFText="&lt;p>CDS-395: Detection&lt;/p>&lt;p>Updated: 2022/09/30, 15:57:25&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-395&quot;>CDS-395&lt;/a>&lt;/p>"/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="160840e9-e584-4113-829a-944d4d38fcc0"
+            ReqIFLongName="5 CDS-316 Nonfunctional Requirements" ReqIFName="CDS-316: Nonfunctional Requirements"
+            ReqIFPrefix="CDS-316" ReqIFText="&lt;p>CDS-316: Nonfunctional Requirements&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-316&quot;>CDS-316&lt;/a>&lt;/p>">
+          <ownedRequirements xsi:type="Requirements:Folder" id="78ff00a7-1daf-4cca-8b2b-e13c929c322a"
+              ReqIFLongName="5.1 CDS-317: Performance Requirements" ReqIFName="CDS-317: Performance Requirements"
+              ReqIFPrefix="CDS-317" ReqIFText="&lt;p>CDS-317: Performance Requirements&lt;/p>&lt;p>Updated: 2022/09/29, 14:15:03&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-317&quot;>CDS-317&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="89c0077e-5286-4d32-828c-73c72000eb67"
+              ReqIFLongName="5.1-2 CDS-392: Operational Range" ReqIFName="CDS-392: Operational Range"
+              ReqIFPrefix="CDS-392" ReqIFText="&lt;p>CDS-392: Operational Range&lt;/p>&lt;p>Updated: 2022/09/30, 15:57:53&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-392&quot;>CDS-392&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="32623e60-f376-490b-9c04-b7e678fa9e98"
+              ReqIFLongName="5.1-1 CDS-479: New Requirement" ReqIFName="CDS-479: New Requirement"
+              ReqIFPrefix="CDS-479" ReqIFText="&lt;p>CDS-479: New Requirement&lt;/p>&lt;p>Updated: 2022/09/29, 14:15:03&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-479&quot;>CDS-479&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="aa1c1541-ee92-4dcc-88d8-e4b692f2c5fe"
+              ReqIFLongName="5.1-3 CDS-464: Notification Time" ReqIFName="CDS-464: Notification Time"
+              ReqIFPrefix="CDS-464" ReqIFText="&lt;p>CDS-464: Notification Time&lt;/p>&lt;p>Updated: 2022/09/30, 15:58:07&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-464&quot;>CDS-464&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="377832fa-0428-4a07-aaf1-cd552477ffea"
+              ReqIFLongName="5.2 CDS-318 Safety Requirements" ReqIFName="CDS-318: Safety Requirements"
+              ReqIFPrefix="CDS-318" ReqIFText="&lt;p>CDS-318: Safety Requirements&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-318&quot;>CDS-318&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="b0f3313b-b0a0-4a1e-9e29-39ccf57cb5a4"
+              ReqIFLongName="5.3 CDS-319: Security Requirements" ReqIFName="CDS-319: Security Requirements"
+              ReqIFPrefix="CDS-319" ReqIFText="&lt;p>CDS-319: Security Requirements&lt;/p>&lt;p>Updated: 2022/09/29, 13:22:42&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-319&quot;>CDS-319&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="112b72c8-caa3-458d-bfb6-5f60785e1c6f"
+              ReqIFLongName="5.3-1 CDS-474: Athlete onboarding" ReqIFName="CDS-474: Athlete onboarding"
+              ReqIFPrefix="CDS-474" ReqIFText="&lt;p>CDS-474: Athlete onboarding&lt;/p>&lt;p>Updated: 2022/09/30, 13:24:51&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-474&quot;>CDS-474&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="b91cc5e4-cfd0-4623-93e9-96d3d71cefeb"
+              ReqIFLongName="5.4 CDS-320 Software Quality Attributes" ReqIFName="CDS-320: Software Quality Attributes"
+              ReqIFPrefix="CDS-320" ReqIFText="&lt;p>CDS-320: Software Quality Attributes&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-320&quot;>CDS-320&lt;/a>&lt;/p>"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="2cfbd8af-fbe5-4e51-a566-284870b46bf9"
+              ReqIFLongName="5.5 CDS-321 Other Requirements" ReqIFName="CDS-321: Other Requirements"
+              ReqIFPrefix="CDS-321" ReqIFText="&lt;p>CDS-321: Other Requirements&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-321&quot;>CDS-321&lt;/a>&lt;/p>"/>
         </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Folder" id="41d014ff-2570-47ac-854e-474dcc6a7020"
+        <ownedRequirements xsi:type="Requirements:Folder" id="7aaebe79-ce05-48c7-8101-474163a0e889"
             ReqIFLongName="6 CDS-322 Appendix A: Terminology/Glossary/Definitions list"
-            ReqIFName="CDS-322 Appendix A: Terminology/Glossary/Definitions list"
-            ReqIFPrefix="CDS-322"/>
-        <ownedRequirements xsi:type="Requirements:Folder" id="87ac94fd-3cc5-4974-8a9f-e01cdfad5312"
-            ReqIFLongName="7 CDS-323 Appendix B: Analysis Models" ReqIFName="CDS-323 Appendix B: Analysis Models"
-            ReqIFPrefix="CDS-323"/>
+            ReqIFName="CDS-322: Appendix A: Terminology/Glossary/Definitions list"
+            ReqIFPrefix="CDS-322" ReqIFText="&lt;p>CDS-322: Appendix A: Terminology/Glossary/Definitions list&lt;/p>&lt;p>Updated: 2022/07/18, 14:06:15&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-322&quot;>CDS-322&lt;/a>&lt;/p>"/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="4005edbe-fdaa-42eb-b0cd-c129363295e2"
+            ReqIFLongName="7 CDS-323: Appendix B: Analysis Models" ReqIFName="CDS-323: Appendix B: Analysis Models"
+            ReqIFPrefix="CDS-323" ReqIFText="&lt;p>CDS-323: Appendix B: Analysis Models&lt;/p>&lt;p>Updated: 2022/09/29, 14:15:03&lt;/p>&lt;p>&lt;a href=&quot;https://polarion.diswx.com/polarion/#/project/ConcussionDetectionSystem/workitem?id=CDS-323&quot;>CDS-323&lt;/a>&lt;/p>"/>
       </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunctionPkg"
           id="0f22a73e-f1fa-4374-b118-5ec56dc57a76" name="Physical Functions">
@@ -5811,6 +5821,8 @@
               sourceElement="#ad02118a-4bd1-4d37-b1f9-acb7fdfcc20e"/>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
               id="6e3a8121-45c7-4591-b28d-11bee4861540" name="Acquire Device">
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="0fbb2996-a39e-4d08-a9d2-4c1e5c7d01de" source="#6e3a8121-45c7-4591-b28d-11bee4861540"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="b6e57981-4edd-4cfe-b46e-f0bb39f98fe5" involved="#e665875a-d1bc-4524-a7ec-836e28b52f86"
                 source="#750a3127-d860-4819-a0a3-015e1bcf4a0e" target="#9c4af804-5507-4889-95e2-4376377b95bf"/>
@@ -6071,13 +6083,17 @@
             <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
                 id="2de65093-8381-4876-be78-5b6374ecddf7" source="#c26ff8c6-e228-4f1a-a9c1-77ea56692c64"/>
             <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-                id="4c780249-31fd-421c-afd5-1d131363950a" source="#c26ff8c6-e228-4f1a-a9c1-77ea56692c64"
-                target="#c03e7259-cd9b-4536-b31e-c79f077d61b8"/>
+                id="4c780249-31fd-421c-afd5-1d131363950a" source="#c26ff8c6-e228-4f1a-a9c1-77ea56692c64"/>
             <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
                 id="1c8b9356-19df-40f9-a4b6-9cf6a5270bc1" source="#c26ff8c6-e228-4f1a-a9c1-77ea56692c64"/>
             <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-                id="6af50bd8-dd80-4767-be98-73a2f615bd3e" source="#c26ff8c6-e228-4f1a-a9c1-77ea56692c64"
-                target="#1a0c0090-14bd-41fd-9184-89c5e7c8995e"/>
+                id="6af50bd8-dd80-4767-be98-73a2f615bd3e" source="#c26ff8c6-e228-4f1a-a9c1-77ea56692c64"/>
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="70dd7a8a-75b5-4b52-933d-213594e002af" source="#c26ff8c6-e228-4f1a-a9c1-77ea56692c64"
+                target="#aa1c1541-ee92-4dcc-88d8-e4b692f2c5fe"/>
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="9383ee0a-3320-4c89-9165-5b29f454dc8a" source="#c26ff8c6-e228-4f1a-a9c1-77ea56692c64"
+                target="#fac24661-fdc3-4cd2-8672-fd89e55c0fc3"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="ac8edf02-380d-4c3a-af23-2792105cad59" involved="#9cf0b319-b000-4762-a282-3c1bc1f8d9f2"
                 source="#78a94b18-601b-4873-9330-b91f78bf78e2" target="#d0d86a17-3178-41ad-9e04-e20ec2af445a"/>
@@ -7976,12 +7992,15 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7bf2488f-716f-4cb1-8f29-789383b4af5e"
               name="ID Device" abstractType="#9016acd9-9ff1-4820-a2f6-51ac9ec69b43"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a03e4d68-60ea-4704-a0a1-c3e9a90639c3"
-              name="Helmet" abstractType="#f77ded72-d9eb-4372-891b-31a9de73842d"/>
+              name="Helmet" abstractType="#f77ded72-d9eb-4372-891b-31a9de73842d">
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="c3e8c952-86c0-4999-bafa-a6b2c3c4c212" source="#f77ded72-d9eb-4372-891b-31a9de73842d"
+                target="#fac24661-fdc3-4cd2-8672-fd89e55c0fc3"/>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9df55c64-d3ea-4d4a-b319-789a8ff977a8"
               name="Sensing Device" abstractType="#69715026-6b0d-4bdc-9ccb-92d9972d7a34">
             <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-                id="ce445f5c-5221-4281-b2ee-97b0ba3b4fef" source="#69715026-6b0d-4bdc-9ccb-92d9972d7a34"
-                target="#c95158fe-544c-4add-9d31-a7364ca07525"/>
+                id="ce445f5c-5221-4281-b2ee-97b0ba3b4fef" source="#69715026-6b0d-4bdc-9ccb-92d9972d7a34"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="384a39c4-e2fe-45c0-b416-78be2024a458"
               name="Network" abstractType="#790063dc-915d-448a-ba98-ac0ca686e798"/>
@@ -7997,6 +8016,9 @@
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2af3550c-48da-4b50-b39a-d80cd594b4d8"
               name="LORAWAN Gateway" abstractType="#367ff96b-152e-4c52-82ec-fd1e1a733a2e">
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="53b70e41-e607-448d-b6cb-3d7e0bbc4773" source="#367ff96b-152e-4c52-82ec-fd1e1a733a2e"
+                target="#89c0077e-5286-4d32-828c-73c72000eb67"/>
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="b3acb5e6-aa4a-42c0-a270-2fadc0fd6c9c" deployedElement="#15a86d6a-2e95-47d9-a4bb-2fb050aed911"
                 location="#2af3550c-48da-4b50-b39a-d80cd594b4d8"/>
@@ -8689,8 +8711,13 @@
               <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
                   id="952e6784-c621-4884-9233-76553dc23b56" source="#8a1a4239-0407-43b0-8cb0-38eec5df2039"/>
               <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-                  id="ea121564-646e-4e36-9526-459f9668e0cd" source="#8a1a4239-0407-43b0-8cb0-38eec5df2039"
-                  target="#280f1f77-8810-4cf8-9baa-4acf62a0a659"/>
+                  id="ea121564-646e-4e36-9526-459f9668e0cd" source="#8a1a4239-0407-43b0-8cb0-38eec5df2039"/>
+              <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                  id="83ae669c-2613-4640-b5ae-b4f067062794" source="#8a1a4239-0407-43b0-8cb0-38eec5df2039"
+                  target="#89c0077e-5286-4d32-828c-73c72000eb67"/>
+              <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                  id="71ac13d5-16e2-41b4-af93-46289d8ef954" source="#8a1a4239-0407-43b0-8cb0-38eec5df2039"
+                  target="#fac24661-fdc3-4cd2-8672-fd89e55c0fc3"/>
               <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                   id="627c9520-5f7c-443a-8f4b-cadc19452bee" deployedElement="#9df55c64-d3ea-4d4a-b319-789a8ff977a8"
                   location="#056aec13-eb94-4afa-8a62-c03782b46d0a"/>
