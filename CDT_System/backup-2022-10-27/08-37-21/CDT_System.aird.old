@@ -32,7 +32,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="CDT_System.capella#a601bc89-b500-494a-a9a5-6cb78ab285a1"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_OP04YNbVEeyVd-CR1SC4AA" name="[OPD] Detect Concusson" repPath="#_OPzqQNbVEeyVd-CR1SC4AA" changeId="c9f764d8-82b9-4135-944a-bd5e4eeceb20">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_OP04YNbVEeyVd-CR1SC4AA" name="[OPD] Detect Concusson" repPath="#_OPzqQNbVEeyVd-CR1SC4AA" changeId="6e743ab7-8b3b-4e0e-bfca-2df4758ba350">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Process%20Description']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalProcess" href="CDT_System.capella#7b2d0491-bdb6-4feb-a46b-c4a71abe051f"/>
       </ownedRepresentationDescriptors>
@@ -4387,7 +4387,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@edgeMappings[name='FC_Exchange']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OP5J1dbVEeyVd-CR1SC4AA" name="Concussion Alert to Trainer" sourceNode="_OP37t9bVEeyVd-CR1SC4AA" targetNode="_OP4ixdbVEeyVd-CR1SC4AA">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OP5J1dbVEeyVd-CR1SC4AA" name="Concussion Alert" sourceNode="_OP37t9bVEeyVd-CR1SC4AA" targetNode="_OP4ixdbVEeyVd-CR1SC4AA">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="CDT_System.capella#62d772c8-78e3-46f1-8ec9-d1e5fa388ea2"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="CDT_System.capella#62d772c8-78e3-46f1-8ec9-d1e5fa388ea2"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="CDT_System.capella#e71caa94-b428-41fe-93e0-c3c148b57ac5"/>
