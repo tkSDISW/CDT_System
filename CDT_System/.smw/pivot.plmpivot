@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<plmpivot:PlmProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:plmpivot="http://www.example.org/Plmpivot" semanticIdentifier="CDT_System" plmIdentifier="QbHAAM635BWnuC" revision="A" name="CDT_System" reservationStatus="LOCKED" label="001208/A">
+  <options key="uml0Type" value="Capella Project"/>
+  <options key="tcitemId" value="001208"/>
+  <options key="staging.area.path" value="C:\bhm\staging\CDT_System_001208_A\.smw"/>
+  <options key="timestamp" value="hxEAAM635BWnuC"/>
+  <model name="platform:/resource/CDT_System/CDT_System.aird">
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_PmK2gNakEeyVd-CR1SC4AA" plmIdentifier="QfGAAM635BWnuC" name="Act 1 - [OCB] Operational Capabilities" hash="c7aace83f9f1e088f561bf6388f1fbb51ccde171" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Capabilities Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_7NOwANa6EeyVd-CR1SC4AA" plmIdentifier="QfLAAM635BWnuC" name="[OAB] Acquire and Maintain" hash="564be25a2011a7734a1eda8dedf25f50500280a3" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Entity Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_D0QlUNa9EeyVd-CR1SC4AA" plmIdentifier="QfPAAM635BWnuC" name="[OPD] Acquire Device" hash="1499c178d01672c5e62dea3ca940a4d350bb1613" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Process Description"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_QIuyMNa-EeyVd-CR1SC4AA" plmIdentifier="QjDAAM635BWnuC" name="[OAB] Activate" hash="cb3c88aee7fbf45eb71417e58db8716a31ca9d85" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Entity Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_njuyINbAEeyVd-CR1SC4AA" plmIdentifier="QjHAAM635BWnuC" name="[OPD] Activate Detection Device" hash="bedd0557bced87c6f2e21d53052b148eb5d5f11f" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Process Description"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_AdSFoNbBEeyVd-CR1SC4AA" plmIdentifier="QjLAAM635BWnuC" name="Act 2 and 3 [OAB] Detect and Download" hash="3c17f9cef97273ae3fe44e29e678327a1335917f" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Entity Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_OPzqQNbVEeyVd-CR1SC4AA" plmIdentifier="QjPAAM635BWnuC" name="[OPD] Detect Concusson" hash="f7fe137a3035407e16c1a9a61c2fe7fc74040d0f" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Process Description"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_SpbrANbXEeyVd-CR1SC4AA" plmIdentifier="QnDAAM635BWnuC" name="[OES] [OAS] Detect Concussion 1 (OES)" hash="244be37a59def13e18621e27bb40d032c9aa181b" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Interaction Scenario"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_u2HvIOW9EeyAEY2eRwkWcA" plmIdentifier="QnHAAM635BWnuC" name="Clone of [OAB] Activate" hash="cb3c88aee7fbf45eb71417e58db8716a31ca9d85" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Entity Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_v6U-IOW9EeyAEY2eRwkWcA" plmIdentifier="QnLAAM635BWnuC" name="Clone 2 of [OAB] Activate" hash="cb3c88aee7fbf45eb71417e58db8716a31ca9d85" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Operational Entity Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_-6YkUOW6EeyAEY2eRwkWcA" plmIdentifier="QnPAAM635BWnuC" name="[SAB] Acquire and Maintain" hash="d785cea2771690684ebb87218c27b8b29393c203" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="System Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_ydTRMOW9EeyAEY2eRwkWcA" plmIdentifier="QrDAAM635BWnuC" name="[SAB] Activate Detection Device" hash="4e09f8a1c2da529a433f221772838c653e4558ae" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="System Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_srTEEOXCEeyAEY2eRwkWcA" plmIdentifier="QrHAAM635BWnuC" name="[MCB] Capabilities" hash="b7c54d757691eb8c575ad24dd5550a17b97bf436" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Missions Capabilities Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="__m6HkOXEEeyAEY2eRwkWcA" plmIdentifier="QrLAAM635BWnuC" name="[SAB] Detect and Download" hash="8f004964851c9dfedbe2a717fc6afec85791cc12" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="System Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_9cgwsOaBEeyAEY2eRwkWcA" plmIdentifier="QrPAAM635BWnuC" name="[LAB] Structure" hash="1194ab4fe6bd86bf5dbe80ee8dc2416571e6d677" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Logical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_-sECIOaDEeyAEY2eRwkWcA" plmIdentifier="QvDAAM635BWnuC" name="[LAB] Aquire and Maintain" hash="fa5b0ba279de99da677572e1cea210fa08bd033b" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Logical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_A_wGkeaFEeyAEY2eRwkWcA" plmIdentifier="QvHAAM635BWnuC" name="[LAB] Activate" hash="8fd61dd43f13740251078b3f4d193b21d20f28a3" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Logical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="__xGFoeaFEeyAEY2eRwkWcA" plmIdentifier="QvLAAM635BWnuC" name="[LAB] Detect and Download" hash="2d532438583ea92a55d06b47dd52c727748e7fcc" path="C:\bhm\staging\CDT_System_001208_A\.smw" imageFormat="JPG" type="Logical Architecture Blank"/>
+  </model>
+  <archive semanticIdentifier="CDT_System.zip" plmIdentifier="QfCAAM635BWnuC" name="CDT_System.zip" hash="f5756138b57b8118d410f9003abbad6bb3526c6f" path="C:\bhm\staging\CDT_System_001208_A\.smw">
+    <options key="fileIdentifier" value="QfCAAM635BWnuC"/>
+    <files hash="f72762844d7c1ac65fa3a116d5c9ac64c0c01db1" path="CDT_System/.project"/>
+    <files hash="204c0046ef36290feac8590e999c3bd87ba8f0be" path="CDT_System/.user.af"/>
+    <files hash="55121d405b986eba3ae9576991e794edd9e24f9a" path="CDT_System/CDT_System.afm"/>
+    <files hash="4c9af4e775ec5a7da65a78996bce453f4e021f61" path="CDT_System/CDT_System.aird"/>
+    <files hash="bb76b4b9884acd6fd2903934818ac74ed7c65ffd" path="CDT_System/CDT_System.capella"/>
+  </archive>
+</plmpivot:PlmProject>
