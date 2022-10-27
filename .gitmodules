@@ -1,0 +1,9 @@
+[submodule "LORAWAN_Library"]
+	path = LORAWAN_Library
+	url = https://github.com/tkSDISW/LORAWAN_Library
+[submodule "LORAWAN_Devices"]
+	path = LORAWAN_Devices
+	url = https://github.com/tkSDISW/LORAWAN_Library
+[submodule "LORAWAN_Devices_1"]
+	path = LORAWAN_Devices_1
+	url = https://github.com/tkSDISW/LORAWAN_Devices
