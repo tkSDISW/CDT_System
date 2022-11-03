@@ -22,7 +22,8 @@
     name="CDT_System">
   <ownedExtensions xsi:type="libraries:ModelInformation" id="ab28286b-1f97-42ef-b148-8859f5f698b9">
     <ownedReferences xsi:type="libraries:LibraryReference" id="d0edb641-21e7-4433-b5b0-cd167b721d55"
-        library="libraries:ModelInformation ../LORAWAN_Library/LORAWAN_Library.capella#b6c085f3-7aef-42ea-a124-b836cdff3154"/>
+        library="libraries:ModelInformation ../LORAWAN_Library/LORAWAN_Library.capella#b6c085f3-7aef-42ea-a124-b836cdff3154"
+        accessPolicy="readAndWrite"/>
   </ownedExtensions>
   <ownedEnumerationPropertyTypes xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyType"
       id="114ad81f-0f35-4660-aefc-eaa8918c2eeb" name="ProgressStatus">
